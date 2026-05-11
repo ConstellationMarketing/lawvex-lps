@@ -26,19 +26,15 @@ export const AboutUsSection = (): JSX.Element => {
 
           <div className="flex flex-col space-y-6 text-center max-w-3xl mb-12">
             <p className="font-body text-lawvex-dark text-base leading-relaxed">
-              Lawvex is a California-based law firm specializing in estate planning, probate, and trust administration. With 20 years of experience, we help families throughout the Central Valley protect their assets and plan for their future with confidence.
+              Lawvex is a California-based law firm redefined by three core values: Speed, Efficiency, and Transparency. With over 20 years of experience, our team has helped thousands of families throughout the Central Valley navigate the complexities of estate law and probate.
             </p>
 
             <p className="font-body text-lawvex-dark text-base leading-relaxed">
-              Our firm manages over 400 estate plans annually, combining deep legal expertise with streamlined processes to ensure clarity and efficiency. We understand that estate planning involves complex decisions, and we guide our clients through every step with transparency and care.
+              Our approach is different. We have moved away from the "hourly mystery" of traditional legal services. By creating over 400 estate plans every year, we have developed a mature, technology-driven process that ensures your legal matters are handled with precision without the traditional wait times.
             </p>
 
             <p className="font-body text-lawvex-dark text-base leading-relaxed">
-              Whether you're planning your estate, navigating the probate process, or managing trust administration, Lawvex is committed to protecting your family's legacy. Our attorneys combine technical expertise with a client-focused approach to deliver results you can trust.
-            </p>
-
-            <p className="font-body text-lawvex-dark text-base leading-relaxed">
-              At Lawvex, we believe that Speed, Efficiency, and Transparency are the cornerstones of excellent legal service. Let us help you build a secure future for your family.
+              Located in Clovis, we serve families and individuals throughout Fresno, Madera, and San Luis Obispo Counties. When your family's legacy, your home, or your livelihood is at stake, our experienced team provides the skilled representation you need to move forward.
             </p>
           </div>
 
