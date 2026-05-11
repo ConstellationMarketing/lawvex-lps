@@ -64,7 +64,6 @@ export const ClientTestimonialsSection = (): JSX.Element => {
                       ))}
                     </div>
                   </div>
-                  <span className="text-lawvex-accent font-body text-2xl font-bold">G</span>
                 </div>
                 <p className="font-body text-lawvex-dark text-sm leading-relaxed line-clamp-4">
                   {testimonial.text}
