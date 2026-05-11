@@ -85,7 +85,6 @@ export const ContactSection = (): JSX.Element => {
                   <Phone className="w-5 h-5 text-lawvex-accent mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-body text-lawvex-dark font-medium">(559) 418-6587</p>
-                    <p className="font-body text-gray-600 text-sm">Monday-Friday, 9am-5pm</p>
                   </div>
                 </div>
               </div>
@@ -101,8 +100,7 @@ export const ContactSection = (): JSX.Element => {
                   <div>
                     <p className="font-body text-lawvex-dark font-medium mb-1">Clovis Office:</p>
                     <p className="font-body text-lawvex-dark">2565 Alluvial Ave Suite 202</p>
-                    <p className="font-body text-lawvex-dark mb-2">Clovis, CA 93611</p>
-                    <p className="font-body text-gray-600 text-sm">tisha@lawvex.com</p>
+                    <p className="font-body text-lawvex-dark">Clovis, CA 93611</p>
                   </div>
                 </div>
               </div>
