@@ -2,6 +2,28 @@ import React from "react";
 import { Phone, MapPin } from "lucide-react";
 
 export const ContactSection = (): JSX.Element => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    const form = e.currentTarget;
+
+    const payload = new FormData(form);
+
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(payload as any).toString(),
+    })
+      .then(() => {
+        alert("Thank you for your message. We'll be in touch soon!");
+        form.reset();
+      })
+      .catch((error) => {
+        console.error("Form submission error:", error);
+        alert("There was an issue submitting your form. Please try again.");
+      });
+
+    e.preventDefault();
+  };
+
   return (
     <section id="contact" className="w-full bg-lawvex-light py-12 md:py-20">
       <div className="max-w-7xl mx-auto px-4">
@@ -24,9 +46,12 @@ export const ContactSection = (): JSX.Element => {
               name="lawvex-contact"
               method="POST"
               data-netlify="true"
+              onSubmit={handleSubmit}
               className="space-y-4"
             >
               <input type="hidden" name="form-name" value="lawvex-contact" />
+              <input type="hidden" name="bot-field" />
+              <input type="hidden" name="subject" value="New Lawvex Contact Form Submission" />
               <div>
                 <input
                   type="text"
