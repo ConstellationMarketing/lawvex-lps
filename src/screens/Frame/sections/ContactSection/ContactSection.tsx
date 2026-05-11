@@ -43,13 +43,13 @@ export const ContactSection = (): JSX.Element => {
             </h3>
             <form
               id="contact-form"
-              name="lawvex-contact"
+              name="estate-lp-form"
               method="POST"
               data-netlify="true"
               onSubmit={handleSubmit}
               className="space-y-4"
             >
-              <input type="hidden" name="form-name" value="lawvex-contact" />
+              <input type="hidden" name="form-name" value="estate-lp-form" />
               <input type="hidden" name="bot-field" />
               <input type="hidden" name="subject" value="New Lawvex Contact Form Submission" />
               <div>
