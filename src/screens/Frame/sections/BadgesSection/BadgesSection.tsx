@@ -36,7 +36,7 @@ export const BadgesSection = (): JSX.Element => {
           >
             <CarouselContent className="-ml-2 md:-ml-4">
               {badges.map((badge, index) => (
-                <CarouselItem key={index} className="pl-2 md:pl-4 basis-1/2 md:basis-1/3 lg:basis-1/5">
+                <CarouselItem key={index} className="pl-2 md:pl-4 basis-full md:basis-1/2 lg:basis-1/5">
                   <div className="p-4 flex items-center justify-center h-40 w-full">
                     <img
                       src={badge.src}
