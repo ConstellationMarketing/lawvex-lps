@@ -7,14 +7,19 @@ export const ContactSection = (): JSX.Element => {
 
     const payload = new FormData(form);
 
+    // Trigger WhatConverts lead capture
+    if (typeof window !== 'undefined' && (window as any).$wc_leads) {
+      (window as any).$wc_leads.formData = Object.fromEntries(payload);
+    }
+
     fetch("/?no-cache=true", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(payload as any).toString(),
     })
       .then(() => {
-        alert("Thank you for your message. We'll be in touch soon!");
-        form.reset();
+        // Redirect to thank you page after successful submission
+        window.location.href = "/thank-you";
       })
       .catch((error) => {
         console.error("Form submission error:", error);
