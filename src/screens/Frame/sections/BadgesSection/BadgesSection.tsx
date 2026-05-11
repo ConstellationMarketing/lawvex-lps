@@ -23,7 +23,7 @@ export const BadgesSection = (): JSX.Element => {
   ];
 
   return (
-    <section className="w-full bg-white py-6 md:py-10">
+    <section className="w-full bg-lawvex-light py-6 md:py-10">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="relative max-w-6xl mx-auto px-12">
           <Carousel
@@ -46,8 +46,8 @@ export const BadgesSection = (): JSX.Element => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="left-0 bg-wosnik-accent text-wosnik-dark hover:bg-wosnik-accent/80 border-wosnik-accent" />
-            <CarouselNext className="right-0 bg-wosnik-accent text-wosnik-dark hover:bg-wosnik-accent/80 border-wosnik-accent" />
+            <CarouselPrevious className="left-0 bg-lawvex-accent text-lawvex-dark hover:bg-lawvex-accent/80 border-lawvex-accent" />
+            <CarouselNext className="right-0 bg-lawvex-accent text-lawvex-dark hover:bg-lawvex-accent/80 border-lawvex-accent" />
           </Carousel>
         </div>
       </div>

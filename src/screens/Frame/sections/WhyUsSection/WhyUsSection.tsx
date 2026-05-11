@@ -24,10 +24,10 @@ export const WhyUsSection = (): JSX.Element => {
   ];
 
   return (
-    <section className="w-full py-12 md:py-20 bg-white">
+    <section className="w-full py-12 md:py-20 bg-lawvex-light">
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="font-heading text-wosnik-dark text-3xl md:text-4xl font-normal text-center mb-12">
-          Criminal Case Results
+        <h2 className="font-heading text-lawvex-dark text-3xl md:text-4xl font-bold text-center mb-12">
+          Successful Cases & Outcomes
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -40,20 +40,20 @@ export const WhyUsSection = (): JSX.Element => {
             };
 
             return (
-              <Card key={index} className="bg-gray-50 border-none shadow-md">
+              <Card key={index} className="bg-white border border-lawvex-gray shadow-md">
                 <CardContent className="p-6">
                   <div className="mb-4">
-                    <h3 className="font-heading text-wosnik-dark text-xl font-normal mb-2">
+                    <h3 className="font-heading text-lawvex-dark text-xl font-bold mb-2">
                       {caseItem.charge}
                     </h3>
-                    <p className="font-body text-gray-600 text-sm italic mb-2">
+                    <p className="font-body text-lawvex-dark/60 text-sm italic mb-2">
                       {caseItem.caseNumber}
                     </p>
                     <div className={`inline-block ${getBadgeColor(caseItem.result)} text-white font-body font-semibold text-sm px-4 py-1 rounded uppercase`}>
                       {caseItem.result}
                     </div>
                   </div>
-                  <p className="font-body text-gray-700 text-sm leading-relaxed">
+                  <p className="font-body text-lawvex-dark text-sm leading-relaxed">
                     {caseItem.description}
                   </p>
                 </CardContent>

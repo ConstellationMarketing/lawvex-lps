@@ -35,27 +35,27 @@ export const ClientTestimonialsSection = (): JSX.Element => {
   ];
 
   return (
-    <section className="w-full bg-wosnik-light py-12 md:py-20">
+    <section className="w-full bg-lawvex-light py-12 md:py-20">
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="font-heading text-wosnik-dark text-3xl md:text-4xl font-normal text-center mb-12">
+        <h2 className="font-heading text-lawvex-dark text-3xl md:text-4xl font-bold text-center mb-12">
           Client Reviews
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {testimonials.map((testimonial, index) => (
-            <Card key={index} className="bg-white border border-gray-200 shadow-sm">
+            <Card key={index} className="bg-white border border-lawvex-gray shadow-sm">
               <CardContent className="p-6">
                 <div className="flex items-center gap-3 mb-3">
-                  <div className="w-10 h-10 bg-wosnik-accent rounded-full flex items-center justify-center">
-                    <span className="font-body text-wosnik-dark font-bold text-sm">
+                  <div className="w-10 h-10 bg-lawvex-accent rounded-full flex items-center justify-center">
+                    <span className="font-body text-lawvex-dark font-bold text-sm">
                       {testimonial.name.charAt(0)}
                     </span>
                   </div>
                   <div className="flex-1">
-                    <h3 className="font-body text-wosnik-dark font-semibold text-sm">
+                    <h3 className="font-body text-lawvex-dark font-semibold text-sm">
                       {testimonial.name}
                     </h3>
-                    <p className="font-body text-gray-500 text-xs">
+                    <p className="font-body text-lawvex-dark/50 text-xs">
                       {testimonial.timeAgo}
                     </p>
                     <div className="flex items-center gap-1 mt-1">
@@ -64,9 +64,9 @@ export const ClientTestimonialsSection = (): JSX.Element => {
                       ))}
                     </div>
                   </div>
-                  <span className="text-wosnik-accent font-body text-2xl font-bold">G</span>
+                  <span className="text-lawvex-accent font-body text-2xl font-bold">G</span>
                 </div>
-                <p className="font-body text-gray-700 text-sm leading-relaxed line-clamp-4">
+                <p className="font-body text-lawvex-dark text-sm leading-relaxed line-clamp-4">
                   {testimonial.text}
                 </p>
                 <a
