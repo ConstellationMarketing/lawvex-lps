@@ -9,7 +9,7 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
   ];
 
   return (
-    <section id="practice-areas" className="w-full bg-lawvex-light py-12 md:py-20">
+    <section id="practice-areas" className="w-full bg-lawvex-gray py-12 md:py-20">
       <div className="max-w-5xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-lawvex-dark text-3xl md:text-4xl font-bold mb-4">
