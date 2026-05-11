@@ -149,6 +149,14 @@
     </script>
   </head>
   <body>
+    <!-- Hidden form for Netlify form detection during build -->
+    <form name="lawvex-contact" method="POST" netlify hidden>
+      <input type="text" name="name" required />
+      <input type="email" name="email" required />
+      <input type="tel" name="phone" required />
+      <textarea name="message" required></textarea>
+    </form>
+
     <div id="app"></div>
     <script type="module" src="./src/index.tsx"></script>
   </body>

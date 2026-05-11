@@ -7,7 +7,7 @@ export const ContactSection = (): JSX.Element => {
 
     const payload = new FormData(form);
 
-    fetch("/", {
+    fetch("/?no-cache=true", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(payload as any).toString(),
@@ -18,7 +18,7 @@ export const ContactSection = (): JSX.Element => {
       })
       .catch((error) => {
         console.error("Form submission error:", error);
-        alert("There was an issue submitting your form. Please try again.");
+        alert("There was an issue submitting your form. Please try again or call us at (559) 418-6587.");
       });
 
     e.preventDefault();
