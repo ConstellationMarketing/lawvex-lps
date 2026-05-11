@@ -73,7 +73,7 @@ export const ClientTestimonialsSection = (): JSX.Element => {
                   href="https://www.google.com/search?q=wosnik+law+georgia&sca_esv=aaa09739d5691e40&ei=h5cgafvqEIaN-d8PgayLmQ0&ved=0ahUKEwi7yo-B2YORAxWGRv4FHQHWItMQ4dUDCBE&uact=5&oq=wosnik+law+georgia&gs_lp=Egxnd3Mtd2l6LXNlcnAiEndvc25payBsYXcgZ2VvcmdpYTIFECEYoAEyBRAhGKABMgUQIRigAUjODlCgAljODXABeAGQAQCYAX6gAdMGqgEDMi42uAEDyAEA-AEBmAIJoALwBsICChAAGLADGNYEGEfCAgUQABiABMICBhAAGBYYHsICBRAAGO8FwgIIEAAYgAQYogTCAgsQABiABBiGAxiKBcICBBAhGBXCAgcQIRigARgKmAMAiAYBkAYIkgcDMi43oAeCHLIHAzEuN7gH6wbCBwUxLjYuMsgHEQ&sclient=gws-wiz-serp#lrd=0x88f5d1e30a86d521:0x5c677f5df8116ea0,1,,,,"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-body text-wosnik-accent hover:underline text-sm mt-2 inline-block"
+                  className="font-body text-lawvex-accent hover:underline text-sm mt-2 inline-block"
                 >
                   Read more
                 </a>
