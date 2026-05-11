@@ -56,9 +56,11 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
               Request Your Fee Quote
             </a>
 
-            <p className="font-body text-lawvex-dark text-base">
-              Speak with our experienced estate planning attorneys today.
-            </p>
+            <div className="font-body text-lawvex-dark text-base space-y-2">
+              <p>
+                <strong>Request a Professional Fee Quote Today 559-418-6587</strong> <em>Speak directly with our intake team to get a transparent pricing estimate for your specific case.</em>
+              </p>
+            </div>
           </div>
         </div>
       </div>
