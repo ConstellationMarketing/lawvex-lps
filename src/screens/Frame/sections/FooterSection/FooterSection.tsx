@@ -4,11 +4,12 @@ export const FooterSection = (): JSX.Element => {
   return (
     <section className="w-full bg-lawvex-dark py-8">
       <div className="container mx-auto max-w-7xl px-4">
-        <div className="text-center space-y-4">
-          <p className="font-body text-lawvex-light text-sm">
-            © Copyright 2026 Lawvex
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
+        <div className="text-center">
+          <div className="flex flex-wrap justify-center items-center gap-4">
+            <p className="font-body text-lawvex-light text-sm m-0">
+              © Copyright 2026 Lawvex
+            </p>
+            <span className="text-lawvex-light text-sm">•</span>
             <a
               href="https://lawvex.com/privacy-policy/"
               target="_blank"
