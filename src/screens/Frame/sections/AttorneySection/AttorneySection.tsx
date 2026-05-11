@@ -10,9 +10,11 @@ export const AttorneySection = (): JSX.Element => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
           <div className="w-full h-full min-h-[400px]">
-            <div className="w-full h-full min-h-[400px] bg-lawvex-gray rounded-lg flex items-center justify-center">
-              <span className="text-lawvex-dark/50 font-body">Attorney Photo Placeholder</span>
-            </div>
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F76feb3b6af274c2390752223771364dc?format=webp&width=800&height=1200"
+              alt="Lawvex Team"
+              className="w-full h-full object-cover rounded-lg"
+            />
           </div>
 
           <div className="flex flex-col justify-center space-y-6">
