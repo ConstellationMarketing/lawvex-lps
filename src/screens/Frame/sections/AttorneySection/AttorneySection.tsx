@@ -8,12 +8,12 @@ export const AttorneySection = (): JSX.Element => {
           Meet the Lawvex Team
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
-          <div className="w-full h-full min-h-[400px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div className="w-full">
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F76feb3b6af274c2390752223771364dc?format=webp&width=800&height=1200"
               alt="Lawvex Team"
-              className="w-full h-full object-cover rounded-lg"
+              className="w-full h-auto object-contain rounded-lg"
             />
           </div>
 
