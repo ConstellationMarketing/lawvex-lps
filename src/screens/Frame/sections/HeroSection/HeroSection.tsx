@@ -7,9 +7,11 @@ export const HeroSection = (): JSX.Element => {
       <div className="relative w-full bg-lawvex-dark border-b border-lawvex-accent/20">
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center">
-            <div className="h-10 w-auto flex items-center">
-              <span className="text-lawvex-light font-heading text-xl font-bold">Lawvex</span>
-            </div>
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F85a24e56361d4bb18447aa5f15703e59?format=webp&width=800&height=1200"
+              alt="Lawvex Logo"
+              className="h-10 w-auto object-contain"
+            />
           </div>
 
           <div className="flex flex-col items-end">
