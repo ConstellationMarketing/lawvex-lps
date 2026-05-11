@@ -12,21 +12,37 @@ export const ThankYou = (): JSX.Element => {
             </div>
           </div>
 
-          <h1 className="font-heading text-lawvex-dark text-4xl md:text-5xl font-bold mb-6">
-            Thank You!
+          <h1 className="font-heading text-lawvex-dark text-4xl md:text-5xl font-bold mb-4">
+            Your Request Has Been Received
           </h1>
 
-          <p className="font-body text-lawvex-dark text-lg mb-4">
-            We've received your message and appreciate you contacting us.
+          <p className="font-body text-lawvex-dark text-xl font-semibold mb-8">
+            A member of our intake team will contact you shortly.
           </p>
 
-          <p className="font-body text-lawvex-dark/70 text-base mb-8">
-            Our professional intake team will review your case details and get back to you as soon as possible. We typically respond within 24 hours during business days.
-          </p>
+          <div className="bg-white border-2 border-lawvex-accent rounded-lg p-8 mb-8 text-left">
+            <h3 className="font-heading text-lawvex-dark text-2xl font-bold mb-6">
+              Next Steps:
+            </h3>
+            <ul className="space-y-4">
+              <li className="font-body text-lawvex-dark text-base flex items-start">
+                <span className="text-lawvex-accent font-bold mr-3 text-lg">✓</span>
+                <span>Watch for a call from <strong>559-418-6587</strong> or an email from Lawvex.</span>
+              </li>
+              <li className="font-body text-lawvex-dark text-base flex items-start">
+                <span className="text-lawvex-accent font-bold mr-3 text-lg">✓</span>
+                <span>We will provide you with a professional fee quote.</span>
+              </li>
+              <li className="font-body text-lawvex-dark text-base flex items-start">
+                <span className="text-lawvex-accent font-bold mr-3 text-lg">✓</span>
+                <span>Once the quote is reviewed, we will schedule your 30-minute attorney consultation.</span>
+              </li>
+            </ul>
+          </div>
 
           <div className="bg-lawvex-accent/10 border border-lawvex-accent/30 rounded-lg p-6 mb-8">
             <p className="font-body text-lawvex-dark font-semibold mb-2">
-              Need Immediate Assistance?
+              Questions in the Meantime?
             </p>
             <a
               href="tel:5594186587"
@@ -34,9 +50,6 @@ export const ThankYou = (): JSX.Element => {
             >
               (559) 418-6587
             </a>
-            <p className="font-body text-lawvex-dark/70 text-sm mt-2">
-              Available Monday-Friday
-            </p>
           </div>
 
           <a
