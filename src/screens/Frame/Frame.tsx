@@ -10,11 +10,13 @@ import { AboutUsSection } from "./sections/AboutUsSection";
 import { AttorneySection } from "./sections/AttorneySection";
 import { BadgesSection } from "./sections/BadgesSection";
 import { StickyCtaButton } from "../../components/ui/StickyCtaButton";
+import { StickyBottomCta } from "../../components/ui/StickyBottomCta";
 
 export const Frame = (): JSX.Element => {
   return (
-    <div className="w-full bg-lawvex-light">
+    <div className="w-full bg-lawvex-light pb-20 md:pb-24">
       <StickyCtaButton />
+      <StickyBottomCta />
       <div className="flex flex-col">
         <HeroSection />
         <BadgesSection />
