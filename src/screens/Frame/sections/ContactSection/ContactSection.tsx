@@ -7,10 +7,10 @@ export const ContactSection = (): JSX.Element => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-lawvex-dark text-3xl md:text-4xl font-bold mb-4">
-            Request Your Fee Quote
+            Contact Lawvex
           </h2>
           <p className="font-body text-lawvex-dark text-lg">
-            Contact Lawvex today to discuss your estate planning, probate, or trust administration needs
+            Speak with our professional intake team about your case today.
           </p>
         </div>
 
