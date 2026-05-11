@@ -20,7 +20,7 @@ export const WhyChooseUsSection = (): JSX.Element => {
           Over 20 years of experience protecting your family and your assets.
         </p>
 
-        <div className="max-w-3xl mx-auto space-y-6 mb-12">
+        <div className="max-w-3xl mx-auto space-y-6 mb-12 text-center">
           <p className="font-body text-lawvex-dark text-base leading-relaxed">
             Legal matters regarding death or incapacity are stressful. We understand the financial and emotional pressure these situations bring, and we are here to provide professional guidance before you face the court alone.
           </p>
