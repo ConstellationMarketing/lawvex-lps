@@ -26,7 +26,7 @@ export const BadgesSection = (): JSX.Element => {
   return (
     <section className="w-full bg-lawvex-light py-6 md:py-10">
       <div className="container mx-auto max-w-7xl px-4">
-        <div className="relative max-w-6xl mx-auto px-12">
+        <div className="relative max-w-6xl mx-auto px-0 md:px-12">
           <Carousel
             opts={{
               align: "start",
@@ -47,8 +47,8 @@ export const BadgesSection = (): JSX.Element => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="left-0 bg-lawvex-accent text-lawvex-dark hover:bg-lawvex-accent/80 border-lawvex-accent" />
-            <CarouselNext className="right-0 bg-lawvex-accent text-lawvex-dark hover:bg-lawvex-accent/80 border-lawvex-accent" />
+            <CarouselPrevious className="hidden md:flex left-0 bg-lawvex-accent text-lawvex-dark hover:bg-lawvex-accent/80 border-lawvex-accent" />
+            <CarouselNext className="hidden md:flex right-0 bg-lawvex-accent text-lawvex-dark hover:bg-lawvex-accent/80 border-lawvex-accent" />
           </Carousel>
         </div>
       </div>
