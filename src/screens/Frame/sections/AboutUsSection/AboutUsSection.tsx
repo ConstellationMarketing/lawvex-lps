@@ -19,9 +19,11 @@ export const AboutUsSection = (): JSX.Element => {
 
         <div className="flex flex-col items-center">
           <div className="w-full mb-12 max-w-4xl">
-            <div className="w-full h-64 bg-lawvex-gray rounded-lg flex items-center justify-center">
-              <span className="text-lawvex-dark/50 font-body">Logo & Team Image Placeholder</span>
-            </div>
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F69251c209ca14fafadd9fd4265a25160?format=webp&width=800&height=1200"
+              alt="Lawvex Team"
+              className="w-full h-auto rounded-lg"
+            />
           </div>
 
           <div className="flex flex-col space-y-6 text-center max-w-3xl mb-12">
