@@ -17,8 +17,9 @@ export const AboutUsSection = (): JSX.Element => {
           About Lawvex
         </h2>
 
-        <div className="flex flex-col items-center">
-          <div className="w-full mb-12 max-w-4xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12 items-center">
+          {/* Image Column */}
+          <div className="w-full">
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F69251c209ca14fafadd9fd4265a25160?format=webp&width=800&height=1200"
               alt="Lawvex Team"
@@ -26,7 +27,12 @@ export const AboutUsSection = (): JSX.Element => {
             />
           </div>
 
-          <div className="flex flex-col space-y-6 text-center max-w-3xl mb-12">
+          {/* Text Column */}
+          <div className="flex flex-col space-y-6">
+            <h3 className="font-heading text-lawvex-dark text-2xl font-bold">
+              Lawvex Team
+            </h3>
+
             <p className="font-body text-lawvex-dark text-base leading-relaxed">
               Lawvex is a California-based law firm redefined by three core values: Speed, Efficiency, and Transparency. With over 20 years of experience, our team has helped thousands of families throughout the Central Valley navigate the complexities of estate law and probate.
             </p>
@@ -39,24 +45,24 @@ export const AboutUsSection = (): JSX.Element => {
               Located in Clovis, we serve families and individuals throughout Fresno, Madera, and San Luis Obispo Counties. When your family's legacy, your home, or your livelihood is at stake, our experienced team provides the skilled representation you need to move forward.
             </p>
           </div>
+        </div>
 
-          <div className="w-full">
-            <h3 className="font-heading text-lawvex-dark text-2xl font-bold text-center mb-8">
-              Highlights
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
-              {highlights.map((highlight, index) => (
-                <div
-                  key={index}
-                  className="bg-lawvex-accent rounded-lg p-6 flex flex-col items-center text-center"
-                >
-                  <CheckCircle className="w-10 h-10 text-lawvex-dark mb-3" />
-                  <p className="font-body text-lawvex-dark text-sm font-medium leading-relaxed">
-                    {highlight}
-                  </p>
-                </div>
-              ))}
-            </div>
+        <div className="w-full">
+          <h3 className="font-heading text-lawvex-dark text-2xl font-bold text-center mb-8">
+            Highlights
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
+            {highlights.map((highlight, index) => (
+              <div
+                key={index}
+                className="bg-lawvex-accent rounded-lg p-6 flex flex-col items-center text-center"
+              >
+                <CheckCircle className="w-10 h-10 text-lawvex-dark mb-3" />
+                <p className="font-body text-lawvex-dark text-sm font-medium leading-relaxed">
+                  {highlight}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
       </div>
