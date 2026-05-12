@@ -7,7 +7,7 @@ export const AboutUsSection = (): JSX.Element => {
     "400+ estate plans managed annually",
     "Probate & trust administration",
     "Speed, efficiency & transparency",
-    "Central Valley serving"
+    "5,000+ Estate planning & trust administration matters completed"
   ];
 
   return (
