@@ -29,10 +29,6 @@ export const AboutUsSection = (): JSX.Element => {
 
           {/* Text Column */}
           <div className="flex flex-col space-y-6">
-            <h3 className="font-heading text-lawvex-dark text-2xl font-bold">
-              Lawvex Team
-            </h3>
-
             <p className="font-body text-lawvex-dark text-base leading-relaxed">
               Lawvex is a California-based law firm redefined by three core values: Speed, Efficiency, and Transparency. With over 20 years of experience, our team has helped thousands of families throughout the Central Valley navigate the complexities of estate law and probate.
             </p>
