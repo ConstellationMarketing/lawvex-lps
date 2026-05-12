@@ -1,6 +1,6 @@
 import React from "react";
 
-export const CallToActionMainSection = (): JSX.Element => {
+export const CallToActionMainSectionMeta = (): JSX.Element => {
   return (
     <section className="w-full bg-lawvex-accent py-12 md:py-16">
       <div className="max-w-6xl mx-auto px-4 text-center">
@@ -12,10 +12,10 @@ export const CallToActionMainSection = (): JSX.Element => {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
-            href="tel:5594186587"
+            href="tel:5592495237"
             className="bg-lawvex-dark text-white font-body font-semibold px-8 py-4 rounded-lg hover:bg-opacity-90 transition-all"
           >
-            Call Now: (559) 418-6587
+            Call Now: (559) 249-5237
           </a>
           <button
             onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}

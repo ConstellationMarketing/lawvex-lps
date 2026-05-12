@@ -1,6 +1,6 @@
 import React from "react";
 
-export const HeroSection = (): JSX.Element => {
+export const HeroSectionMeta = (): JSX.Element => {
   return (
     <section className="relative w-full min-h-[500px] bg-lawvex-dark">
       {/* Navigation Bar */}
@@ -17,10 +17,10 @@ export const HeroSection = (): JSX.Element => {
           <div className="hidden md:flex flex-col items-end">
             <p className="font-body text-lawvex-accent text-xs uppercase tracking-wider">Call Today</p>
             <a
-              href="tel:5594186587"
+              href="tel:5592495237"
               className="font-body text-lawvex-light hover:text-lawvex-accent transition-colors text-lg font-semibold"
             >
-              (559) 418-6587
+              (559) 249-5237
             </a>
           </div>
         </div>

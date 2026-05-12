@@ -1,7 +1,7 @@
 import React from "react";
 import { Phone, MapPin } from "lucide-react";
 
-export const ContactSection = (): JSX.Element => {
+export const ContactSectionMeta = (): JSX.Element => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     const form = e.currentTarget;
 
@@ -23,7 +23,7 @@ export const ContactSection = (): JSX.Element => {
       })
       .catch((error) => {
         console.error("Form submission error:", error);
-        alert("There was an issue submitting your form. Please try again or call us at (559) 418-6587.");
+        alert("There was an issue submitting your form. Please try again or call us at (559) 249-5237.");
       });
 
     e.preventDefault();
@@ -114,7 +114,7 @@ export const ContactSection = (): JSX.Element => {
                 <div className="flex items-start">
                   <Phone className="w-5 h-5 text-lawvex-accent mr-3 mt-1 flex-shrink-0" />
                   <div>
-                    <p className="font-body text-lawvex-dark font-medium">(559) 418-6587</p>
+                    <p className="font-body text-lawvex-dark font-medium">(559) 249-5237</p>
                   </div>
                 </div>
               </div>

@@ -1,6 +1,6 @@
 import React from "react";
 
-export const AttorneySection = (): JSX.Element => {
+export const AttorneySectionMeta = (): JSX.Element => {
   return (
     <section className="w-full bg-lawvex-gray py-12 md:py-20">
       <div className="max-w-6xl mx-auto px-4">

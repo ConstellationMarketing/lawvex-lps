@@ -1,6 +1,6 @@
 import React from "react";
 
-export const CriminalDefenseServicesSection = (): JSX.Element => {
+export const CriminalDefenseServicesSectionMeta = (): JSX.Element => {
   const practiceAreas = [
     { title: "Estate Planning", description: "Comprehensive Wills, Trusts, and Powers of Attorney." },
     { title: "Probate", description: "Efficiently navigating the court process to settle a loved one's estate." },
@@ -42,15 +42,15 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
           </h3>
 
           <a
-            href="tel:5594186587"
+            href="tel:5592495237"
             className="inline-block font-heading text-white text-2xl md:text-3xl font-semibold hover:opacity-80 transition-opacity mb-8"
           >
-            (559) 418-6587
+            (559) 249-5237
           </a>
 
           <div className="flex flex-col items-center gap-4">
             <a
-              href="tel:5594186587"
+              href="tel:5592495237"
               className="bg-white hover:bg-gray-100 text-lawvex-dark font-inter font-medium text-sm px-8 py-3 rounded-full transition-all duration-150 uppercase tracking-[2px] inline-block"
             >
               Request Your Fee Quote
@@ -58,7 +58,7 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
 
             <div className="font-body text-white text-base space-y-2">
               <p>
-                <strong>Request a Professional Fee Quote Today 559-418-6587</strong> <em>Speak directly with our intake team to get a transparent pricing estimate for your specific case.</em>
+                <strong>Request a Professional Fee Quote Today 559-249-5237</strong> <em>Speak directly with our intake team to get a transparent pricing estimate for your specific case.</em>
               </p>
             </div>
           </div>

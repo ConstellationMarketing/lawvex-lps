@@ -5,15 +5,18 @@ import { FooterSection } from "./sections/FooterSection";
 import { HeroSection } from "./sections/HeroSection";
 import { ClientTestimonialsSection } from "./sections/ClientTestimonialsSection";
 import { CriminalDefenseServicesSection } from "./sections/CriminalDefenseServicesSection";
-import { WhyUsSection } from "./sections/WhyUsSection";
 import { WhyChooseUsSection } from "./sections/WhyChooseUsSection";
 import { AboutUsSection } from "./sections/AboutUsSection";
 import { AttorneySection } from "./sections/AttorneySection";
 import { BadgesSection } from "./sections/BadgesSection";
+import { StickyCtaButton } from "../../components/ui/StickyCtaButton";
+import { StickyBottomCta } from "../../components/ui/StickyBottomCta";
 
 export const Frame = (): JSX.Element => {
   return (
-    <div className="w-full bg-wosnik-light">
+    <div className="w-full bg-lawvex-light pb-20 md:pb-24">
+      <StickyCtaButton />
+      <StickyBottomCta />
       <div className="flex flex-col">
         <HeroSection />
         <BadgesSection />
@@ -21,7 +24,6 @@ export const Frame = (): JSX.Element => {
         <WhyChooseUsSection />
         <AboutUsSection />
         <AttorneySection />
-        <WhyUsSection />
         <ClientTestimonialsSection />
         <CallToActionMainSection />
         <ContactSection />

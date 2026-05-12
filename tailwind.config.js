@@ -40,11 +40,11 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        wosnik: {
-          accent: '#deab1e',
-          dark: '#181820',
-          light: '#efefef',
-          darken: '#e1e1e1',
+        lawvex: {
+          accent: '#58ac32',
+          dark: '#000000',
+          light: '#ffffff',
+          gray: '#d7d7d7',
         },
       },
       borderRadius: {
@@ -62,10 +62,10 @@ module.exports = {
           '"Segoe UI Symbol"',
           '"Noto Color Emoji"',
         ],
-        heading: ['"Libre Baskerville"', 'serif'],
+        heading: ['"Playfair Display"', 'serif'],
         body: ['"Open Sans"', 'sans-serif'],
         inter: ['"Inter UI"', 'sans-serif'],
-        libre: ['"Libre Baskerville"', 'serif'],
+        libre: ['"Playfair Display"', 'serif'],
       },
       keyframes: {
         "accordion-down": {

@@ -10,7 +10,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: './index.html',
-        'thank-you': './thank-you.html'
+        'thank-you': './thank-you.html',
+        'meta-estate-planning-lp': './meta-estate-planning-lp.html'
       }
     }
   },

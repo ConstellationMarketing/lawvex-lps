@@ -1,51 +1,28 @@
 import React from "react";
-import { Scale, Users, Briefcase, Award } from "lucide-react";
 
 export const WhyChooseUsSection = (): JSX.Element => {
-  const features = [
-    {
-      icon: Scale,
-      text: "When facing criminal charges or family law matters, you need experienced attorneys who understand what's at stake. Our team has helped hundreds of people charged with crimes in Georgia navigate the legal system."
-    },
-    {
-      icon: Users,
-      text: "We focus on achieving the best possible outcome for each client, whether you're facing a traffic ticket, serious felony, DUI charge, or divorce and child custody matter."
-    },
-    {
-      icon: Briefcase,
-      text: "Our attorneys bring unique insights from experience with federal, county, and city prosecutors' offices, understanding firsthand how prosecutors build cases - knowledge we now use to defend our clients."
-    },
-    {
-      icon: Award,
-      text: "With attorneys recognized by Super Lawyers Rising Stars, National Trial Lawyers Top 40 Under 40, and maintaining a 10/10 AVVO rating, we combine legal excellence with personalized attention to protect your interests."
-    }
+  const paragraphs = [
+    "Legal matters regarding death or incapacity are stressful. We understand the financial and emotional pressure these situations bring, and we are here to provide professional guidance before you face the court alone.",
+    "Our firm focuses on effectively representing your interests in local courts and through private administration. We strive to pursue the best possible outcome for each client, whether that means avoiding the 12-to-24-month probate process or ensuring a trust is distributed correctly to heirs.",
+    "With combined 110 years of experience in California, our team brings a comprehensive understanding of the legal landscape. We maintain clear communication throughout your case, ensuring you understand the legal process, timelines, and potential outcomes every step of the way."
   ];
 
   return (
-    <section className="w-full bg-white pt-12 md:pt-20 pb-6 md:pb-8">
+    <section className="w-full bg-lawvex-light pt-12 md:pt-20 pb-12 md:pb-20">
       <div className="max-w-7xl mx-auto px-4">
-        <h2 className="font-heading text-wosnik-dark text-3xl md:text-4xl font-normal text-center mb-3">
-          Why Choose Wosnik Law, LLC
+        <h2 className="font-heading text-lawvex-dark text-3xl md:text-4xl font-bold text-center mb-3">
+          Why Us
         </h2>
-        <p className="font-body text-gray-600 text-center text-lg mb-12">
-          Over 35 years of combined experience defending your rights and freedom
+        <p className="font-body text-lawvex-dark/70 text-center text-lg mb-12 max-w-3xl mx-auto">
+          Combined 110 years of experience protecting your family and your assets.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {features.map((feature, index) => {
-            const IconComponent = feature.icon;
-            return (
-              <div
-                key={index}
-                className="bg-wosnik-accent p-6 rounded-lg flex flex-col items-center text-center"
-              >
-                <IconComponent className="w-12 h-12 text-wosnik-dark mb-4" />
-                <p className="font-body text-wosnik-dark text-sm leading-relaxed">
-                  {feature.text}
-                </p>
-              </div>
-            );
-          })}
+        <div className="max-w-3xl mx-auto space-y-6 text-center">
+          {paragraphs.map((paragraph, index) => (
+            <p key={index} className="font-body text-lawvex-dark text-base leading-relaxed">
+              {paragraph}
+            </p>
+          ))}
         </div>
       </div>
     </section>
