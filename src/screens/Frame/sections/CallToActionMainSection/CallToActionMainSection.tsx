@@ -13,13 +13,13 @@ export const CallToActionMainSection = (): JSX.Element => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
             href="tel:5594186587"
-            className="bg-white text-lawvex-dark font-body font-semibold px-8 py-4 rounded-lg hover:bg-gray-100 transition-all"
+            className="bg-lawvex-dark text-white font-body font-semibold px-8 py-4 rounded-lg hover:bg-opacity-90 transition-all"
           >
             Call Now: (559) 418-6587
           </a>
           <button
             onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
-            className="bg-white text-lawvex-dark border-2 border-white font-body font-semibold px-8 py-4 rounded-lg hover:bg-gray-100 transition-all"
+            className="bg-white text-lawvex-dark border-2 border-lawvex-dark font-body font-semibold px-8 py-4 rounded-lg hover:bg-lawvex-dark hover:text-white transition-all"
           >
             Request Fee Quote
           </button>
