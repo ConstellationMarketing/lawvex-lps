@@ -4,7 +4,7 @@ export const WhyChooseUsSection = (): JSX.Element => {
   const paragraphs = [
     "Legal matters regarding death or incapacity are stressful. We understand the financial and emotional pressure these situations bring, and we are here to provide professional guidance before you face the court alone.",
     "Our firm focuses on effectively representing your interests in local courts and through private administration. We strive to pursue the best possible outcome for each client, whether that means avoiding the 12-to-24-month probate process or ensuring a trust is distributed correctly to heirs.",
-    "With 20 years of experience in California, our team brings a comprehensive understanding of the legal landscape. We maintain clear communication throughout your case, ensuring you understand the legal process, timelines, and potential outcomes every step of the way."
+    "With combined 110 years of experience in California, our team brings a comprehensive understanding of the legal landscape. We maintain clear communication throughout your case, ensuring you understand the legal process, timelines, and potential outcomes every step of the way."
   ];
 
   return (
@@ -14,7 +14,7 @@ export const WhyChooseUsSection = (): JSX.Element => {
           Why Us
         </h2>
         <p className="font-body text-lawvex-dark/70 text-center text-lg mb-12 max-w-3xl mx-auto">
-          Over 20 years of experience protecting your family and your assets.
+          Combined 110 years of experience protecting your family and your assets.
         </p>
 
         <div className="max-w-3xl mx-auto space-y-6 text-center">
