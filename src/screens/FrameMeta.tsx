@@ -1,6 +1,6 @@
 import React from "react";
-import { CallToActionMainSectionMeta } from "./sections/CallToActionMainSectionMeta";
-import { ContactSectionMeta } from "./sections/ContactSectionMeta";
+import { CallToActionMainSectionMeta } from "./Frame/sections/CallToActionMainSectionMeta";
+import { ContactSectionMeta } from "./Frame/sections/ContactSectionMeta";
 import { FooterSection } from "./Frame/sections/FooterSection";
 import { HeroSectionMeta } from "./Frame/sections/HeroSectionMeta";
 import { ClientTestimonialsSection } from "./Frame/sections/ClientTestimonialsSection";
