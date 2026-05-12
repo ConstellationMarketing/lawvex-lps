@@ -3,7 +3,7 @@ import { CheckCircle } from "lucide-react";
 
 export const AboutUsSection = (): JSX.Element => {
   const highlights = [
-    "20+ years of experience",
+    "Combined 110 Years Of Legal Practice",
     "400+ estate plans managed annually",
     "Probate & trust administration",
     "Speed, efficiency & transparency",
@@ -30,7 +30,7 @@ export const AboutUsSection = (): JSX.Element => {
           {/* Text Column */}
           <div className="flex flex-col space-y-6">
             <p className="font-body text-lawvex-dark text-base leading-relaxed">
-              Lawvex is a California-based law firm redefined by three core values: Speed, Efficiency, and Transparency. With over 20 years of experience, our team has helped thousands of families throughout the Central Valley navigate the complexities of estate law and probate.
+              Lawvex is a California-based law firm redefined by three core values: Speed, Efficiency, and Transparency. With combined 110 years of legal practice, our team has helped thousands of families throughout the Central Valley navigate the complexities of estate law and probate.
             </p>
 
             <p className="font-body text-lawvex-dark text-base leading-relaxed">
