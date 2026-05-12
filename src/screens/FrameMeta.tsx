@@ -2,9 +2,9 @@ import React from "react";
 import { CallToActionMainSection } from "./Frame/sections/CallToActionMainSection";
 import { ContactSection } from "./Frame/sections/ContactSection";
 import { FooterSection } from "./Frame/sections/FooterSection";
-import { HeroSection } from "./Frame/sections/HeroSection";
+import { HeroSectionMeta } from "./Frame/sections/HeroSectionMeta";
 import { ClientTestimonialsSection } from "./Frame/sections/ClientTestimonialsSection";
-import { CriminalDefenseServicesSection } from "./Frame/sections/CriminalDefenseServicesSection";
+import { CriminalDefenseServicesSectionMeta } from "./Frame/sections/CriminalDefenseServicesSectionMeta";
 import { WhyChooseUsSection } from "./Frame/sections/WhyChooseUsSection";
 import { AboutUsSection } from "./Frame/sections/AboutUsSection";
 import { AttorneySection } from "./Frame/sections/AttorneySection";
@@ -18,9 +18,9 @@ export const FrameMeta = (): JSX.Element => {
       <StickyCtaButton />
       <StickyBottomCtaMeta />
       <div className="flex flex-col">
-        <HeroSection />
+        <HeroSectionMeta />
         <BadgesSection />
-        <CriminalDefenseServicesSection />
+        <CriminalDefenseServicesSectionMeta />
         <WhyChooseUsSection />
         <AboutUsSection />
         <AttorneySection />
