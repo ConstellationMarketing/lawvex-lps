@@ -2,10 +2,10 @@ import React from "react";
 
 export const HeroSection = (): JSX.Element => {
   return (
-    <section className="relative w-full min-h-[500px] bg-lawvex-dark pt-16">
+    <section className="relative w-full min-h-[500px] bg-lawvex-dark">
       {/* Navigation Bar */}
-      <div className="fixed inset-x-0 top-0 z-50 w-full border-b border-lawvex-gray/50 bg-white/80 shadow-sm backdrop-blur-xl">
-        <div className="mx-auto flex max-w-[1280px] items-center justify-between px-4 py-3">
+      <div className="relative w-full bg-lawvex-dark border-b border-lawvex-accent/20">
+        <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between md:justify-start">
           <div className="flex items-center">
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F85a24e56361d4bb18447aa5f15703e59?format=webp&width=800&height=1200"
