@@ -30,15 +30,11 @@ export const AboutUsSection = (): JSX.Element => {
           {/* Text Column */}
           <div className="flex flex-col space-y-6">
             <p className="font-body text-lawvex-dark text-base leading-relaxed">
-              Lawvex is a California-based law firm redefined by three core values: Speed, Efficiency, and Transparency. With combined 110 years of legal practice, our team has helped thousands of families throughout the Central Valley navigate the complexities of estate law and probate.
+              Lawvex is not your typical law firm. We carry over 110 years of combined practice and have successfully completed over 5,000 matters for clients across California. We took that massive foundation of experience and used it to redefine the legal experience for the modern age.
             </p>
 
             <p className="font-body text-lawvex-dark text-base leading-relaxed">
-              Our approach is different. We have moved away from the "hourly mystery" of traditional legal services. By creating over 400 estate plans every year, we have developed a mature, technology-driven process that ensures your legal matters are handled with precision without the traditional wait times.
-            </p>
-
-            <p className="font-body text-lawvex-dark text-base leading-relaxed">
-              Located in Clovis, we serve families and individuals throughout Fresno, Madera, and San Luis Obispo Counties. When your family's legacy, your home, or your livelihood is at stake, our experienced team provides the skilled representation you need to move forward.
+              We believe you deserve speed, clarity, and legally enforceable execution without the "hourly mystery" of traditional firms. Whether you are in Clovis, Madera, or working with us remotely from anywhere in the state, our team of 7 dedicated attorneys is focused on one thing: providing the professional support you need to secure your legacy.
             </p>
           </div>
         </div>
