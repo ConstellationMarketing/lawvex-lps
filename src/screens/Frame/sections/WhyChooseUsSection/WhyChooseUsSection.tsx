@@ -1,28 +1,59 @@
-import React from "react";
+import { DollarSign, Gavel, Globe, Lock } from "lucide-react";
+
+const cards = [
+  {
+    title: "You Get Help From a Team That Does This Every Day",
+    description:
+      "We bring institutional-level experience to individual families, backed by 5,000+ matters completed and 110+ collective years of legal practice.",
+    Icon: Gavel,
+  },
+  {
+    title: "You Can Handle the Process Remotely",
+    description:
+      "Serving all of California since 2009 with a proven virtual-first model. Our process is handled via secure video conference for your convenience.",
+    Icon: Globe,
+  },
+  {
+    title: "You Know the Cost Before You Start",
+    description:
+      "We provide upfront, flat-fee quotes based on the complexity of your estate. You know your costs before the work begins.",
+    Icon: DollarSign,
+  },
+  {
+    title: "You Work With an Attorney-Led Team",
+    description:
+      "Every plan is attorney-led, fully customized, and built to work when you need it most, ensuring your assets are protected and your wishes are secured.",
+    Icon: Lock,
+  },
+];
 
 export const WhyChooseUsSection = (): JSX.Element => {
-  const paragraphs = [
-    "You Get Help From a Team That Does This Every Day: We bring institutional-level experience to individual families, backed by 5,000+ matters completed and 110+ collective years of legal practice.",
-    "You Can Handle the Process Remotely: Serving all of California since 2009 with a proven virtual-first model. Our process is handled via secure video conference for your convenience.",
-    "You Know the Cost Before You Start: We provide upfront, flat-fee quotes based on the complexity of your estate. You know your costs before the work begins.",
-    "You Work With an Attorney-Led Team: Every plan is attorney-led, fully customized, and built to work when you need it most, ensuring your assets are protected and your wishes are secured."
-  ];
-
   return (
-    <section className="w-full bg-lawvex-light pt-12 md:pt-20 pb-12 md:pb-20">
-      <div className="max-w-7xl mx-auto px-4">
-        <h2 className="font-heading text-lawvex-dark text-3xl md:text-4xl font-bold text-center mb-3">
-          Why Families Choose Lawvex for Estate Planning and Probate
-        </h2>
-        <p className="font-body text-lawvex-dark/70 text-center text-lg mb-12 max-w-3xl mx-auto">
-          Combined 110 years of experience protecting your family and your assets.
-        </p>
+    <section className="w-full bg-lawvex-light py-24 font-body text-base font-normal leading-6">
+      <div className="mx-auto max-w-[1200px] px-8">
+        <div className="mb-14 text-center">
+          <h2 className="mb-4 font-heading text-4xl font-bold leading-10 text-lawvex-dark">
+            Why Families Choose Lawvex for Estate Planning and Probate
+          </h2>
+          <p className="mx-auto max-w-3xl font-body text-lg leading-8 text-[#555555]">
+            Combined 110 years of experience protecting your family and your assets.
+          </p>
+        </div>
 
-        <div className="max-w-3xl mx-auto space-y-6 text-center">
-          {paragraphs.map((paragraph, index) => (
-            <p key={index} className="font-body text-lawvex-dark text-base leading-relaxed">
-              {paragraph}
-            </p>
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+          {cards.map(({ title, description, Icon }) => (
+            <div
+              key={title}
+              className="h-full rounded-2xl border border-lawvex-gray/50 bg-white px-8 py-8 shadow-sm"
+            >
+              <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-lawvex-accent/10 text-lawvex-accent">
+                <Icon strokeWidth={1.5} className="h-7 w-7" />
+              </div>
+              <h3 className="mb-3 font-heading text-[20px] font-bold leading-7 text-lawvex-dark">
+                {title}
+              </h3>
+              <p className="text-[#555555] leading-[26px]">{description}</p>
+            </div>
           ))}
         </div>
       </div>
