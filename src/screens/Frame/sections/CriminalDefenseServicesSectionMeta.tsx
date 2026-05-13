@@ -3,7 +3,7 @@ import React from "react";
 export const CriminalDefenseServicesSectionMeta = (): JSX.Element => {
   const practiceAreas = [
     { title: "Remote Estate Planning", description: "Wills, trusts, powers of attorney, healthcare directives, and planning for minor children." },
-    { title: "Probate", description: "Efficiently navigating the court process to settle a loved one's estate." },
+    { title: "Probate Assistance", description: "Help for executors when a loved one passed away with assets that need court administration." },
     { title: "Trust Administration", description: "Clear guidance for Successor Trustees to manage legal duties." },
     { title: "Asset Protection", description: "Strategic planning for homeowners and business owners in the Central Valley." },
   ];
