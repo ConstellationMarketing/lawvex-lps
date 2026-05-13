@@ -58,7 +58,7 @@ export const CriminalDefenseServicesSectionMeta = (): JSX.Element => {
 
             <div className="font-body text-white text-base space-y-2">
               <p>
-                <strong>Request a Professional Fee Quote Today 559-249-5237</strong> <em>Speak directly with our intake team to get a transparent pricing estimate for your specific case.</em>
+                <strong>Request a Professional Fee Quote Today 559-249-5237</strong> <em>Speak with our intake team today to find out your exact cost before you schedule an attorney consultation.</em>
               </p>
             </div>
           </div>
