@@ -2,9 +2,9 @@ import React from "react";
 
 export const HeroSectionMeta = (): JSX.Element => {
   return (
-    <section className="relative w-full min-h-[500px] bg-lawvex-dark">
+    <section className="relative w-full min-h-[500px] bg-lawvex-dark pt-[72px]">
       {/* Navigation Bar */}
-      <div className="relative w-full bg-lawvex-dark border-b border-lawvex-accent/20">
+      <div className="fixed inset-x-0 top-0 z-50 w-full bg-lawvex-dark border-b border-lawvex-accent/20">
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between md:justify-start">
           <div className="flex items-center flex-1 md:flex-none md:mr-auto">
             <img
