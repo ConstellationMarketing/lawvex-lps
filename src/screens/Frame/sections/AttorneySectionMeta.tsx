@@ -27,7 +27,7 @@ export const AttorneySectionMeta = (): JSX.Element => {
             </p>
 
             <p className="font-body text-lawvex-dark text-base leading-relaxed">
-              We utilize a mature intake process that allows us to provide clients with a clear fee quote before they schedule a 30-minute attorney consultation. This ensures that you have all the information you need to make an informed decision about your legal future.
+              We prioritize radical transparency. Our intake process ensures you receive a clear, asset-based fee quote before you commit. Once your quote is reviewed, we schedule a focused 30-minute design session with an attorney to finalize your strategy.
             </p>
 
             <div className="pt-4">
