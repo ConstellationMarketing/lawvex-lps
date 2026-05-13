@@ -33,7 +33,7 @@ export const HeroSectionMeta = (): JSX.Element => {
         </h1>
 
         <h2 className="font-heading text-lawvex-accent text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-          Protecting Your Family's Legacy With Combined 110 Years Of Legal Practice
+          Protecting Your Family’s Legacy with 110+ Years of Combined Practice
         </h2>
 
         <p className="font-body text-lawvex-light text-base max-w-3xl mx-auto leading-relaxed mb-8">
