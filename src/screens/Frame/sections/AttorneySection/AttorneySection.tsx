@@ -19,7 +19,7 @@ export const AttorneySection = (): JSX.Element => {
 
           <div className="flex flex-col justify-center space-y-6">
             <p className="font-body text-lawvex-dark text-base leading-relaxed">
-              Lawvex is led by a team of accomplished professionals focusing on estate planning, probate, and trust administration. Our firm is recognized for its innovative "Law Firm Redefined" model, which prioritizes client value and technological efficiency.
+              Our team consists of veteran lawyers who collectively hold more than a century of practice in California law. This depth of experience allows us to navigate complex probate codes and estate laws with the highest level of precision.
             </p>
 
             <p className="font-body text-lawvex-dark text-base leading-relaxed">
