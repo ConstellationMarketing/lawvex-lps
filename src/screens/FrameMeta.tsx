@@ -9,15 +9,13 @@ import { WhyChooseUsSection } from "./Frame/sections/WhyChooseUsSection";
 import { AboutUsSection } from "./Frame/sections/AboutUsSection";
 import { AttorneySectionMeta } from "./Frame/sections/AttorneySectionMeta";
 import { StickyCtaButtonMeta } from "../components/ui/StickyCtaButtonMeta";
-import { StickyBottomCtaMeta } from "../components/ui/StickyBottomCtaMeta";
 import { StatsSection } from "./Frame/sections/StatsSection";
 import { RemoteEstatePlanningProcessSection } from "./Frame/sections/RemoteEstatePlanningProcessSection";
 
 export const FrameMeta = (): JSX.Element => {
   return (
-    <div className="w-full bg-lawvex-light pb-20 md:pb-24">
+    <div className="w-full bg-lawvex-light">
       <StickyCtaButtonMeta />
-      <StickyBottomCtaMeta />
       <div className="flex flex-col">
         <HeroSectionMeta />
         <StatsSection />

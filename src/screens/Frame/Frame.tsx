@@ -9,15 +9,13 @@ import { WhyChooseUsSection } from "./sections/WhyChooseUsSection";
 import { AboutUsSection } from "./sections/AboutUsSection";
 import { AttorneySection } from "./sections/AttorneySection";
 import { StickyCtaButton } from "../../components/ui/StickyCtaButton";
-import { StickyBottomCta } from "../../components/ui/StickyBottomCta";
 import { StatsSection } from "./sections/StatsSection";
 import { RemoteEstatePlanningProcessSection } from "./sections/RemoteEstatePlanningProcessSection";
 
 export const Frame = (): JSX.Element => {
   return (
-    <div className="w-full bg-lawvex-light pb-20 md:pb-24">
+    <div className="w-full bg-lawvex-light">
       <StickyCtaButton />
-      <StickyBottomCta />
       <div className="flex flex-col">
         <HeroSection />
         <StatsSection />
