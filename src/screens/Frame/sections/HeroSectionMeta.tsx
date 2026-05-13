@@ -6,7 +6,7 @@ export const HeroSectionMeta = (): JSX.Element => {
       {/* Navigation Bar */}
       <div className="relative w-full bg-lawvex-dark border-b border-lawvex-accent/20">
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between md:justify-start">
-          <div className="flex items-center">
+          <div className="flex items-center flex-1 md:flex-none md:mr-auto">
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F85a24e56361d4bb18447aa5f15703e59?format=webp&width=800&height=1200"
               alt="Lawvex Logo"
