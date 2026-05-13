@@ -11,7 +11,7 @@ export const WhyChooseUsSection = (): JSX.Element => {
     <section className="w-full bg-lawvex-light pt-12 md:pt-20 pb-12 md:pb-20">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="font-heading text-lawvex-dark text-3xl md:text-4xl font-bold text-center mb-3">
-          Why Us
+          Why Families Choose Lawvex for Estate Planning and Probate
         </h2>
         <p className="font-body text-lawvex-dark/70 text-center text-lg mb-12 max-w-3xl mx-auto">
           Combined 110 years of experience protecting your family and your assets.
