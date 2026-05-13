@@ -29,11 +29,14 @@ const stats = [
 export const StatsSection = (): JSX.Element => {
   return (
     <section className="w-full border-y border-lawvex-gray/50 bg-white py-6 font-body text-base font-normal leading-6">
-      <div className="mx-auto max-w-[1200px] px-8">
-        <div className="grid grid-cols-5 gap-x-6 gap-y-4 text-center">
-          {stats.map((stat) => (
-            <div key={stat.value + stat.label} className="flex min-w-0 flex-col items-center px-2 text-center">
-              <span className="text-[30px] font-bold leading-9 text-lawvex-accent">{stat.value}</span>
+      <div className="mx-auto max-w-[1200px] px-4 sm:px-8">
+        <div className="grid grid-cols-2 gap-x-4 gap-y-8 text-center sm:grid-cols-3 lg:grid-cols-5">
+          {stats.map((stat, index) => (
+            <div
+              key={stat.value + stat.label}
+              className={`flex min-w-0 flex-col items-center px-1 text-center ${index === stats.length - 1 ? 'col-span-2 sm:col-span-1' : ''}`}
+            >
+              <span className="text-2xl font-bold leading-tight text-lawvex-accent sm:text-[30px] sm:leading-9">{stat.value}</span>
               <span className="mt-1 text-sm leading-5 text-[#555555]">{stat.label}</span>
               <span className="mt-1 text-sm leading-5 text-[#555555]">{stat.description}</span>
             </div>
