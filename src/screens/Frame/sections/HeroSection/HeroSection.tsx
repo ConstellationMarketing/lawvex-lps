@@ -2,11 +2,11 @@ import React from "react";
 
 export const HeroSection = (): JSX.Element => {
   return (
-    <section className="relative w-full min-h-[500px] bg-lawvex-dark pt-[128px] sm:pt-[72px]">
+    <section className="relative w-full min-h-[500px] bg-lawvex-dark md:pt-[72px]">
       {/* Navigation Bar */}
-      <div className="fixed inset-x-0 top-0 z-50 w-full bg-lawvex-dark border-b border-lawvex-accent/20">
-        <div className="max-w-7xl mx-auto px-4 py-3 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between md:justify-start">
-          <div className="flex items-center justify-center sm:flex-1 sm:justify-start md:flex-none md:mr-auto">
+      <div className="w-full bg-lawvex-dark border-b border-lawvex-accent/20 md:fixed md:inset-x-0 md:top-0 md:z-50">
+        <div className="max-w-7xl mx-auto flex items-center justify-center px-4 py-4 md:justify-start">
+          <div className="flex items-center justify-center md:flex-1 md:justify-start">
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F85a24e56361d4bb18447aa5f15703e59?format=webp&width=800&height=1200"
               alt="Lawvex Logo"
@@ -14,17 +14,17 @@ export const HeroSection = (): JSX.Element => {
             />
           </div>
 
-          <div className="flex w-full items-center justify-center gap-2 sm:w-auto sm:gap-3">
+          <div className="hidden items-center gap-3 md:flex">
             <a
               href="tel:5594186587"
-              className="flex h-10 flex-1 items-center justify-center whitespace-nowrap rounded-xl border-2 border-lawvex-accent px-3 text-xs font-semibold text-lawvex-accent transition duration-200 sm:flex-none sm:px-4 sm:text-sm"
+              className="flex h-10 items-center justify-center whitespace-nowrap rounded-xl border-2 border-lawvex-accent px-4 text-sm font-semibold text-lawvex-accent transition duration-200"
             >
               Call (559) 418-6587
             </a>
             <button
               type="button"
               onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
-              className="flex h-10 flex-1 items-center justify-center whitespace-nowrap rounded-xl bg-lawvex-accent px-3 text-xs font-semibold text-white shadow-md transition duration-200 sm:flex-none sm:px-4 sm:text-sm"
+              className="flex h-10 items-center justify-center whitespace-nowrap rounded-xl bg-lawvex-accent px-4 text-sm font-semibold text-white shadow-md transition duration-200"
             >
               Book Now
             </button>

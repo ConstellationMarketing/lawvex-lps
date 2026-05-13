@@ -20,7 +20,7 @@ export const StickyCtaButtonMeta = (): JSX.Element => {
   if (!isVisible) return <></>;
 
   return (
-    <div className="fixed bottom-6 right-6 z-50 flex gap-3">
+    <div className="fixed bottom-6 right-6 z-50 hidden gap-3 md:flex">
       <a
         href="tel:5592495237"
         className="flex items-center gap-2 bg-lawvex-accent hover:bg-lawvex-accent/90 text-white font-body font-semibold px-6 py-3 rounded-full shadow-lg transition-all duration-200 whitespace-nowrap"

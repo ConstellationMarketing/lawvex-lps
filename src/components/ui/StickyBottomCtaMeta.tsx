@@ -17,7 +17,7 @@ export const StickyBottomCtaMeta = (): JSX.Element => {
   if (!isVisible) return <></>;
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-40 bg-lawvex-dark shadow-lg">
+    <div className="fixed bottom-0 left-0 right-0 z-40 bg-lawvex-dark shadow-lg md:hidden">
       <div className="max-w-7xl mx-auto px-4 py-3 md:py-4">
         <div className="grid grid-cols-2 gap-3 md:gap-4">
           <a
