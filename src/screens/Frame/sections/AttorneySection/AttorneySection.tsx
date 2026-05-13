@@ -23,7 +23,7 @@ export const AttorneySection = (): JSX.Element => {
             </p>
 
             <p className="font-body text-lawvex-dark text-base leading-relaxed">
-              Our team brings a deep understanding of California probate codes and local court procedures to every case. We focus on a solution-oriented approach, ensuring that your estate plan or administration is handled correctly the first time.
+              While our history is long, our approach is future-focused. We utilize a mature, virtual-first model that has been serving clients since 2009. This allows us to provide high-speed results without sacrificing the personalized attention your family deserves.
             </p>
 
             <p className="font-body text-lawvex-dark text-base leading-relaxed">
