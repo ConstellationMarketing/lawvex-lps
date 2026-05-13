@@ -10,7 +10,7 @@ export const HeroSectionMeta = (): JSX.Element => {
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F85a24e56361d4bb18447aa5f15703e59?format=webp&width=800&height=1200"
               alt="Lawvex Logo"
-              className="h-8 w-[120px] object-contain"
+              className="h-10 w-auto object-contain mx-auto md:mx-0"
             />
           </div>
 
