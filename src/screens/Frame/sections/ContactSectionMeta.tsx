@@ -133,6 +133,22 @@ export const ContactSectionMeta = (): JSX.Element => {
                     <p className="font-body text-lawvex-dark">Clovis, CA 93611</p>
                   </div>
                 </div>
+                <div className="flex items-start">
+                  <MapPin className="w-5 h-5 text-lawvex-accent mr-3 mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="font-body text-lawvex-dark font-medium mb-1">Madera Office:</p>
+                    <p className="font-body text-lawvex-dark">110 N D St.</p>
+                    <p className="font-body text-lawvex-dark">Madera, CA 93638</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <MapPin className="w-5 h-5 text-lawvex-accent mr-3 mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="font-body text-lawvex-dark font-medium mb-1">Solvang Office:</p>
+                    <p className="font-body text-lawvex-dark">595 Alamo Pintado Rd</p>
+                    <p className="font-body text-lawvex-dark">Solvang, CA 93463</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
