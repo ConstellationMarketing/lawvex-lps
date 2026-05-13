@@ -11,6 +11,7 @@ import { AttorneySectionMeta } from "./Frame/sections/AttorneySectionMeta";
 import { BadgesSection } from "./Frame/sections/BadgesSection";
 import { StickyCtaButtonMeta } from "../components/ui/StickyCtaButtonMeta";
 import { StickyBottomCtaMeta } from "../components/ui/StickyBottomCtaMeta";
+import { StatsSection } from "./Frame/sections/StatsSection";
 
 export const FrameMeta = (): JSX.Element => {
   return (
@@ -19,6 +20,7 @@ export const FrameMeta = (): JSX.Element => {
       <StickyBottomCtaMeta />
       <div className="flex flex-col">
         <HeroSectionMeta />
+        <StatsSection />
         <BadgesSection />
         <CriminalDefenseServicesSectionMeta />
         <WhyChooseUsSection />
