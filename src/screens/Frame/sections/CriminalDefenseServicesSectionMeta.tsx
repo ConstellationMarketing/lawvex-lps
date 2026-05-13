@@ -13,7 +13,7 @@ export const CriminalDefenseServicesSectionMeta = (): JSX.Element => {
       <div className="max-w-5xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-lawvex-dark text-3xl md:text-4xl font-bold mb-4">
-            Strategic Legal Support for Your Family & Assets
+            Estate, Trust, and Probate Services We Handle
           </h2>
           <p className="font-body text-lawvex-dark/70 text-base max-w-3xl mx-auto mb-8">
             We understand that legal matters involving family and inheritance are time-sensitive and personal. Our team provides diligent representation to help you avoid court delays and protect your livelihood.
