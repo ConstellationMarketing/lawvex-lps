@@ -11,6 +11,7 @@ import { AttorneySectionMeta } from "./Frame/sections/AttorneySectionMeta";
 import { StickyCtaButtonMeta } from "../components/ui/StickyCtaButtonMeta";
 import { StickyBottomCtaMeta } from "../components/ui/StickyBottomCtaMeta";
 import { StatsSection } from "./Frame/sections/StatsSection";
+import { RemoteEstatePlanningProcessSection } from "./Frame/sections/RemoteEstatePlanningProcessSection";
 
 export const FrameMeta = (): JSX.Element => {
   return (
@@ -22,6 +23,7 @@ export const FrameMeta = (): JSX.Element => {
         <StatsSection />
         <CriminalDefenseServicesSectionMeta />
         <WhyChooseUsSection />
+        <RemoteEstatePlanningProcessSection />
         <AboutUsSection />
         <AttorneySectionMeta />
         <ClientTestimonialsSection />

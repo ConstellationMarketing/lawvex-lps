@@ -11,6 +11,7 @@ import { AttorneySection } from "./sections/AttorneySection";
 import { StickyCtaButton } from "../../components/ui/StickyCtaButton";
 import { StickyBottomCta } from "../../components/ui/StickyBottomCta";
 import { StatsSection } from "./sections/StatsSection";
+import { RemoteEstatePlanningProcessSection } from "./sections/RemoteEstatePlanningProcessSection";
 
 export const Frame = (): JSX.Element => {
   return (
@@ -22,6 +23,7 @@ export const Frame = (): JSX.Element => {
         <StatsSection />
         <CriminalDefenseServicesSection />
         <WhyChooseUsSection />
+        <RemoteEstatePlanningProcessSection />
         <AboutUsSection />
         <AttorneySection />
         <ClientTestimonialsSection />
