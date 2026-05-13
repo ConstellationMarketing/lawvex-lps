@@ -44,7 +44,7 @@ export const HeroSectionMeta = (): JSX.Element => {
           className="bg-lawvex-accent hover:bg-lawvex-accent/80 text-white font-inter font-medium text-sm px-8 py-3 rounded-full border border-lawvex-accent transition-all duration-150 uppercase tracking-[2px] whitespace-nowrap inline-block"
           onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
         >
-          Request Your Fee Quote
+          Get My Fee Quote
         </button>
       </div>
     </section>
