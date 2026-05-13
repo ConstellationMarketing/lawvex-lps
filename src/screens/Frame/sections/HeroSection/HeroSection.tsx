@@ -2,26 +2,32 @@ import React from "react";
 
 export const HeroSection = (): JSX.Element => {
   return (
-    <section className="relative w-full min-h-[500px] bg-lawvex-dark">
+    <section className="relative w-full min-h-[500px] bg-lawvex-dark pt-16">
       {/* Navigation Bar */}
-      <div className="relative w-full bg-lawvex-dark border-b border-lawvex-accent/20">
-        <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between md:justify-start">
-          <div className="flex items-center flex-1 md:flex-none md:mr-auto">
+      <div className="fixed inset-x-0 top-0 z-50 w-full border-b border-lawvex-gray/50 bg-white/80 shadow-sm backdrop-blur-xl">
+        <div className="mx-auto flex max-w-[1280px] items-center justify-between px-4 py-3">
+          <div className="flex items-center">
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F85a24e56361d4bb18447aa5f15703e59?format=webp&width=800&height=1200"
               alt="Lawvex Logo"
-              className="h-10 w-auto object-contain mx-auto md:mx-0"
+              className="h-8 w-[120px] object-contain"
             />
           </div>
 
-          <div className="hidden md:flex flex-col items-end">
-            <p className="font-body text-lawvex-accent text-xs uppercase tracking-wider">Call Today</p>
+          <div className="flex items-center gap-3">
             <a
               href="tel:5594186587"
-              className="font-body text-lawvex-light hover:text-lawvex-accent transition-colors text-lg font-semibold"
+              className="flex h-10 items-center justify-center whitespace-nowrap rounded-xl border-2 border-lawvex-accent px-4 text-sm font-semibold text-lawvex-accent transition duration-200"
             >
-              (559) 418-6587
+              Call (559) 418-6587
             </a>
+            <button
+              type="button"
+              onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
+              className="flex h-10 items-center justify-center whitespace-nowrap rounded-xl bg-lawvex-accent px-4 text-sm font-semibold text-white shadow-md transition duration-200"
+            >
+              Book Now
+            </button>
           </div>
         </div>
       </div>
