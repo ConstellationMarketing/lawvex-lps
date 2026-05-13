@@ -28,11 +28,11 @@ export const HeroSectionMeta = (): JSX.Element => {
 
       {/* Hero Content */}
       <div className="relative w-full max-w-7xl mx-auto px-4 py-16 md:py-24 text-center">
-        <h1 className="font-heading text-lawvex-light text-2xl md:text-3xl lg:text-4xl font-bold leading-tight mb-4">
+        <h1 className="font-heading text-lawvex-light text-xl md:text-2xl font-bold leading-tight mb-4">
           Professional Estate Planning & Probate in Central California
         </h1>
 
-        <h2 className="font-body text-lawvex-accent text-xl md:text-2xl font-semibold mb-6">
+        <h2 className="font-heading text-lawvex-accent text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
           Protecting Your Family's Legacy With Combined 110 Years Of Legal Practice
         </h2>
 
