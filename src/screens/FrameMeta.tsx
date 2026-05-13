@@ -8,7 +8,6 @@ import { CriminalDefenseServicesSectionMeta } from "./Frame/sections/CriminalDef
 import { WhyChooseUsSection } from "./Frame/sections/WhyChooseUsSection";
 import { AboutUsSection } from "./Frame/sections/AboutUsSection";
 import { AttorneySectionMeta } from "./Frame/sections/AttorneySectionMeta";
-import { BadgesSection } from "./Frame/sections/BadgesSection";
 import { StickyCtaButtonMeta } from "../components/ui/StickyCtaButtonMeta";
 import { StickyBottomCtaMeta } from "../components/ui/StickyBottomCtaMeta";
 import { StatsSection } from "./Frame/sections/StatsSection";
@@ -21,7 +20,6 @@ export const FrameMeta = (): JSX.Element => {
       <div className="flex flex-col">
         <HeroSectionMeta />
         <StatsSection />
-        <BadgesSection />
         <CriminalDefenseServicesSectionMeta />
         <WhyChooseUsSection />
         <AboutUsSection />

@@ -8,7 +8,6 @@ import { CriminalDefenseServicesSection } from "./sections/CriminalDefenseServic
 import { WhyChooseUsSection } from "./sections/WhyChooseUsSection";
 import { AboutUsSection } from "./sections/AboutUsSection";
 import { AttorneySection } from "./sections/AttorneySection";
-import { BadgesSection } from "./sections/BadgesSection";
 import { StickyCtaButton } from "../../components/ui/StickyCtaButton";
 import { StickyBottomCta } from "../../components/ui/StickyBottomCta";
 import { StatsSection } from "./sections/StatsSection";
@@ -21,7 +20,6 @@ export const Frame = (): JSX.Element => {
       <div className="flex flex-col">
         <HeroSection />
         <StatsSection />
-        <BadgesSection />
         <CriminalDefenseServicesSection />
         <WhyChooseUsSection />
         <AboutUsSection />
