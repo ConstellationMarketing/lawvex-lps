@@ -16,7 +16,7 @@ export const CriminalDefenseServicesSectionMeta = (): JSX.Element => {
             Estate, Trust, and Probate Services We Handle
           </h2>
           <p className="font-body text-lawvex-dark/70 text-base max-w-3xl mx-auto mb-8">
-            We understand that legal matters involving family and inheritance are time-sensitive and personal. Our team provides diligent representation to help you avoid court delays and protect your livelihood.
+            Our team provides diligent representation across our core areas, utilizing over 110 years of combined experience to protect your assets and your loved ones.
           </p>
           <h3 className="font-heading text-lawvex-dark text-2xl font-bold">
             Services We Provide:
