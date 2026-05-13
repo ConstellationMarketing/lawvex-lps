@@ -38,7 +38,7 @@ export const CriminalDefenseServicesSectionMeta = (): JSX.Element => {
         {/* CTA Section */}
         <div className="mt-16 bg-lawvex-accent rounded-lg p-12 text-center">
           <h3 className="font-heading text-white text-2xl md:text-3xl font-bold mb-6">
-            Ready to Protect Your Legacy?
+            Find Out What Your Plan Will Cost
           </h3>
 
           <a
