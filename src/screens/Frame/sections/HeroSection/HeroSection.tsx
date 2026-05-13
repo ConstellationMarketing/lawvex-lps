@@ -37,7 +37,7 @@ export const HeroSection = (): JSX.Element => {
         </h2>
 
         <p className="font-body text-lawvex-light text-base max-w-3xl mx-auto leading-relaxed mb-8">
-          Whether you are planning for the future or navigating the loss of a loved one, Lawvex provides the steady guidance you need to protect your family's legacy with transparency and care.
+          Lawvex provides a modern, 100% remote legal experience for California families. We have combined over a century of legal wisdom with a streamlined digital process to ensure your assets are protected and your wishes are honored with total transparency.
         </p>
 
         <button
