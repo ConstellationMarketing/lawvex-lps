@@ -32,7 +32,7 @@ export const StickyBottomCta = (): JSX.Element => {
             onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
             className="bg-white hover:bg-gray-100 text-lawvex-dark font-body font-bold py-3 px-4 rounded-lg transition-all duration-200 text-sm md:text-base"
           >
-            Request Fee Quote
+            Request Free Quote
           </button>
         </div>
       </div>
