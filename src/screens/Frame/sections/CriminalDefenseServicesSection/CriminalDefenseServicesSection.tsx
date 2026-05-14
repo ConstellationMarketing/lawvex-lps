@@ -53,7 +53,7 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
               href="tel:5594186587"
               className="bg-white hover:bg-gray-100 text-lawvex-dark font-inter font-medium text-sm px-8 py-3 rounded-full transition-all duration-150 uppercase tracking-[2px] inline-block"
             >
-              Request Your Fee Quote
+              Request Free Quote
             </a>
 
             <div className="font-body text-white text-base space-y-2">
