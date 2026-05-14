@@ -21,7 +21,7 @@ export const CallToActionMainSection = (): JSX.Element => {
             onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
             className="bg-white text-lawvex-dark border-2 border-lawvex-dark font-body font-semibold px-8 py-4 rounded-lg hover:bg-lawvex-dark hover:text-white transition-all"
           >
-            Request Fee Quote
+            Request Free Quote
           </button>
         </div>
       </div>
