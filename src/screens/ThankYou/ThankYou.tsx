@@ -27,15 +27,15 @@ export const ThankYou = (): JSX.Element => {
             <ul className="space-y-4">
               <li className="font-body text-lawvex-dark text-base flex items-start">
                 <span className="text-lawvex-accent font-bold mr-3 text-lg">✓</span>
-                <span>Watch for a call from <strong>559-418-6587</strong> or an email from Lawvex.</span>
+                <span>Watch for a call from <strong>850-590-8040</strong> and an email from us at Lawvex.</span>
               </li>
               <li className="font-body text-lawvex-dark text-base flex items-start">
                 <span className="text-lawvex-accent font-bold mr-3 text-lg">✓</span>
-                <span>We will provide you with a professional fee quote.</span>
+                <span>We will gather some additional info in order provide you with a fully transparent fee quote.</span>
               </li>
               <li className="font-body text-lawvex-dark text-base flex items-start">
                 <span className="text-lawvex-accent font-bold mr-3 text-lg">✓</span>
-                <span>Once the quote is reviewed, we will schedule your 30-minute attorney consultation.</span>
+                <span>Once you review the quote, we will schedule your 30-minute attorney consultation.</span>
               </li>
             </ul>
           </div>
