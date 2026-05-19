@@ -102,6 +102,9 @@ export const ContactSectionMeta = (): JSX.Element => {
               >
                 Request Fee Quote
               </button>
+              <p className="text-xs text-gray-600 text-center mt-3">
+                I agree to receive marketing messaging from Lawvex at the phone number provided above. Data rates may apply. Reply STOP to opt out.
+              </p>
             </form>
           </div>
 
