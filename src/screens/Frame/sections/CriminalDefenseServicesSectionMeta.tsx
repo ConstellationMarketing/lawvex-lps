@@ -3,7 +3,7 @@ import React from "react";
 export const CriminalDefenseServicesSectionMeta = (): JSX.Element => {
   const practiceAreas = [
     { title: "Estate Planning", description: "Wills, trusts, powers of attorney, healthcare directives, and planning for minor children." },
-    { title: "Probate Assistance", description: "Help for executors when a loved one passed away with assets that need court administration." },
+    { title: "Probate Assistance", description: "Help for executors when a loved one has passed away with assets that need court administration." },
     { title: "Trust Administration", description: "Guidance for trustees who need to manage assets, notify beneficiaries, pay expenses, and distribute property." },
     { title: "Asset Protection", description: "Planning for homeowners, business owners, and families with more complex assets." },
   ];
