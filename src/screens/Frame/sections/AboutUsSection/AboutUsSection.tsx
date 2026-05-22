@@ -24,7 +24,7 @@ export const AboutUsSection = (): JSX.Element => {
             </p>
 
             <p className="font-body text-lawvex-dark text-base leading-relaxed">
-              We believe you deserve speed, clarity, and legally enforceable execution without the "hourly mystery" of traditional firms. Whether you are in Clovis, Madera, or working with us remotely from anywhere in the state, our team of 7 dedicated attorneys is focused on one thing: providing the professional support you need to secure your legacy.
+              We believe you deserve speed, clarity, and legally enforceable execution without the "hourly mystery" of traditional firms. Whether you are in Clovis, Madera, Solvang, Santa Barbara, or anywhere in California, our team of 7 dedicated attorneys is focused on one thing: providing the professional support you need to secure your legacy.
             </p>
           </div>
         </div>
