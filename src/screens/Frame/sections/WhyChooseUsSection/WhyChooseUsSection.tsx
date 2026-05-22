@@ -10,7 +10,7 @@ const cards = [
   {
     title: "You Can Handle the Process Remotely",
     description:
-      "Serving all of California since 2009 with a proven virtual-first model. Our process is handled via secure video conference for your convenience.",
+      "Serving all of California since 2009 — from our offices in Clovis, Madera, and Solvang, or 100% remotely, whichever works best for you.",
     Icon: Globe,
   },
   {
