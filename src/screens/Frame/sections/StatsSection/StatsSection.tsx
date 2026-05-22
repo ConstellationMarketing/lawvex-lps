@@ -20,7 +20,7 @@ const stats = [
     description: "Three California offices plus a fully remote option — we work the way you prefer.",
   },
   {
-    value: "4.7-Star",
+    value: "4.8-Star",
     label: "Rating",
     description: "With 235 Google Reviews.",
   },
