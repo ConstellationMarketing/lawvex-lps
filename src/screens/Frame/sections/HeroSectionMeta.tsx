@@ -43,7 +43,7 @@ export const HeroSectionMeta = (): JSX.Element => {
         </h2>
 
         <p className="font-body text-lawvex-light text-base max-w-3xl mx-auto leading-relaxed mb-8">
-          Lawvex provides a modern, 100% remote legal experience for California families. We have combined over a century of legal wisdom with a streamlined digital process to ensure your assets are protected and your wishes are honored with total transparency.
+          Lawvex has three California office locations — and offers a 100% remote legal experience for families who prefer to handle everything from home. However you want to work with us, we make it easy.
         </p>
 
         <button
