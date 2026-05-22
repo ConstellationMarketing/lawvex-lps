@@ -17,7 +17,7 @@ const stats = [
   {
     value: "100%",
     label: "Remote Process",
-    description: "Professional legal support from your home or office.",
+    description: "Three California offices plus a fully remote option — we work the way you prefer.",
   },
   {
     value: "4.7-Star",
