@@ -34,7 +34,7 @@ export const RemoteEstatePlanningProcessSection = (): JSX.Element => {
       <div className="mx-auto max-w-[1200px] px-8">
         <div className="mb-5 text-center">
           <h2 className="font-heading text-4xl font-bold leading-10 text-lawvex-dark">
-            Our Remote Estate Planning Process
+            Our Estate Planning Process — Simple, Fast, and Built Around You
           </h2>
         </div>
 
