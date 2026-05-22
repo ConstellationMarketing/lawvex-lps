@@ -26,7 +26,7 @@ export const HeroSectionMeta = (): JSX.Element => {
               onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
               className="flex h-10 items-center justify-center whitespace-nowrap rounded-xl bg-lawvex-accent px-4 text-sm font-semibold text-white shadow-md transition duration-200"
             >
-              Book Now
+              Request Free Quote
             </button>
           </div>
         </div>

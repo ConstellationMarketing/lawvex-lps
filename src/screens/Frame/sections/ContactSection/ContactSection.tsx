@@ -100,7 +100,7 @@ export const ContactSection = (): JSX.Element => {
                 type="submit"
                 className="w-full bg-lawvex-accent hover:bg-lawvex-accent/80 text-white font-inter font-medium text-sm px-8 py-3 rounded-full border border-lawvex-accent transition-all duration-150 uppercase tracking-[2px] whitespace-nowrap inline-block"
               >
-                Request Fee Quote
+                Request Free Quote
               </button>
               <p className="text-xs text-gray-600 text-center mt-3">
                 I agree to receive marketing messaging from Lawvex at the phone number provided above. Data rates may apply. Reply STOP to opt out.

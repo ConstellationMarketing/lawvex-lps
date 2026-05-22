@@ -77,7 +77,7 @@ export const RemoteEstatePlanningProcessSection = (): JSX.Element => {
             onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
             className="inline-flex h-12 items-center justify-center whitespace-nowrap rounded-xl bg-lawvex-accent px-6 py-2.5 font-semibold text-white shadow-md transition duration-200"
           >
-            Book Your Plan Design Meeting Now
+            Request Free Quote
           </button>
         </div>
       </div>
