@@ -12,7 +12,7 @@ const steps = [
     number: "02",
     title: "Reserve Your Attorney Plan Design Meeting",
     description:
-      "When you book your Plan Design Meeting you’ll place a fully refundable deposit to reserve your meeting. The deposit is applied toward your estate planning package if you proceed or refunded 100% if you decide it’s not a fit.",
+      "After receiving your fee quote, you can schedule a complimentary 30-minute attorney consultation to walk through your options, ask questions, and design your plan. No deposit required.",
     imageSrc:
       "https://join.lawvex.com/images/process-2.jpg?dpl=dpl_Cy7f57tS2UnBJBDXcpprRzyPs4dU",
     imageAlt: "Attorney reviewing estate plan documents",
