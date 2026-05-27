@@ -96,15 +96,33 @@ export const ContactSection = (): JSX.Element => {
                 ></textarea>
               </div>
 
+              <label className="flex items-start gap-3 text-xs leading-5 text-gray-600">
+                <input
+                  type="checkbox"
+                  name="smsConsent"
+                  value="agreed"
+                  required
+                  className="mt-0.5 h-4 w-4 rounded border-lawvex-gray text-lawvex-accent focus:ring-lawvex-accent"
+                />
+                <span>
+                  I agree to receive marketing messaging from Lawvex at the phone number provided above. Data rates may apply. Reply STOP to opt out. View our {" "}
+                  <a href="https://lawvex.com/privacy-policy/" target="_blank" rel="noreferrer" className="underline">
+                    Privacy Policy
+                  </a>{" "}
+                  and{" "}
+                  <a href="https://lawvex.com/terms-of-service/" target="_blank" rel="noreferrer" className="underline">
+                    Terms of Service
+                  </a>
+                  .
+                </span>
+              </label>
+
               <button
                 type="submit"
                 className="w-full bg-lawvex-accent hover:bg-lawvex-accent/80 text-white font-inter font-medium text-sm px-8 py-3 rounded-full border border-lawvex-accent transition-all duration-150 uppercase tracking-[2px] whitespace-nowrap inline-block"
               >
                 Request Free Quote
               </button>
-              <p className="text-xs text-gray-600 text-center mt-3">
-                I agree to receive marketing messaging from Lawvex at the phone number provided above. Data rates may apply. Reply STOP to opt out.
-              </p>
             </form>
           </div>
 
