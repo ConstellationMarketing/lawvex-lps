@@ -104,7 +104,7 @@ export const ContactSectionMeta = (): JSX.Element => {
                   className="mt-0.5 h-4 w-4 rounded border-lawvex-gray text-lawvex-accent focus:ring-lawvex-accent"
                 />
                 <span>
-                  I agree to receive SMS messages from Lawvex regarding my inquiry, legal matter, appointments, account updates, and other customer care communications. Message frequency varies. Message and data rates may apply. Reply STOP to opt out and HELP for assistance. By checking this box, I agree to the{" "}
+                  I agree to receive SMS messages from Lawvex at the phone number provided above, including review requests, customer feedback requests, service updates, and other marketing communications. Message frequency varies. Message and data rates may apply. Reply STOP to opt out and HELP for assistance. By checking this box, I agree to the{" "}
                   <a href="https://lawvex.com/privacy-policy/" target="_blank" rel="noreferrer" className="underline">
                     Privacy Policy
                   </a>{" "}
