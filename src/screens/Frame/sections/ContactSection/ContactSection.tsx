@@ -101,7 +101,6 @@ export const ContactSection = (): JSX.Element => {
                   type="checkbox"
                   name="smsConsent"
                   value="agreed"
-                  required
                   className="mt-0.5 h-4 w-4 rounded border-lawvex-gray text-lawvex-accent focus:ring-lawvex-accent"
                 />
                 <span>
