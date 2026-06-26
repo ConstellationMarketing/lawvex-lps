@@ -88,6 +88,23 @@ export const ContactSection = (): JSX.Element => {
               </div>
 
               <div>
+                <select
+                  name="serviceNeeded"
+                  required
+                  defaultValue=""
+                  className="w-full px-4 py-3 border border-lawvex-gray rounded font-body text-sm text-lawvex-dark focus:outline-none focus:border-lawvex-accent"
+                >
+                  <option value="" disabled>Service Needed</option>
+                  <option value="Estate Planning">Estate Planning</option>
+                  <option value="Medical">Medical</option>
+                  <option value="Probate">Probate</option>
+                  <option value="Trust Administration">Trust Administration</option>
+                  <option value="Business Formations/Transactions">Business Formations/Transactions</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+
+              <div>
                 <textarea
                   name="message"
                   placeholder="Tell us about your estate planning or probate needs"
