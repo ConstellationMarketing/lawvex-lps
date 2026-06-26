@@ -94,7 +94,7 @@ export const ContactSectionMeta = (): JSX.Element => {
                   defaultValue=""
                   className="w-full px-4 py-3 border border-lawvex-gray rounded font-body text-sm text-lawvex-dark focus:outline-none focus:border-lawvex-accent"
                 >
-                  <option value="" disabled>Service Needed</option>
+                  <option value="" disabled>Matter Type</option>
                   <option value="Estate Planning">Estate Planning</option>
                   <option value="Medical">Medical</option>
                   <option value="Probate">Probate</option>
