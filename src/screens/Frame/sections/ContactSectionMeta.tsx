@@ -97,17 +97,17 @@ export const ContactSectionMeta = (): JSX.Element => {
                 <span>
                   Yes, I would like to receive automated text messages from Lawvex, LLP at the phone number provided above, including review requests, customer feedback requests, service updates, and other marketing communications.
                   <br />
-                  Message Frequency: You will receive up to 3 messages per month
+                  <strong>Message Frequency:</strong> You will receive up to 3 messages per month
                   <br />
-                  Standard Rates: Message and data rates may apply depending on your mobile phone service plan.
+                  <strong>Standard Rates:</strong> Message and data rates may apply depending on your mobile phone service plan.
                   <br />
-                  Help &amp; Stop: Reply HELP for help or STOP to cancel any time. By providing your phone number and checking the box above, you agree to receive text messages from Lawvex, LLP.
+                  <strong>Help &amp; Stop:</strong> Reply HELP for help or STOP to cancel any time. By providing your phone number and checking the box above, you agree to receive text messages from Lawvex, LLP.
                   <br />
-                  <a href="/terms-of-service/" className="underline">
+                  <a href="/terms-of-service/" className="text-lawvex-accent underline">
                     Terms of Service
                   </a>{" "}
-                  /{" "}
-                  <a href="/privacy-policy/" className="underline">
+                  |{" "}
+                  <a href="/privacy-policy/" className="text-lawvex-accent underline">
                     Privacy Policy
                   </a>
                 </span>
