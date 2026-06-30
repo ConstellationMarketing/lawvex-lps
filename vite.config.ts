@@ -11,7 +11,9 @@ export default defineConfig({
       input: {
         main: './index.html',
         'thank-you': './thank-you.html',
-        'meta-estate-planning-lp': './meta-estate-planning-lp.html'
+        'meta-estate-planning-lp': './meta-estate-planning-lp.html',
+        'privacy-policy': './privacy-policy/index.html',
+        'terms-of-service': './terms-of-service/index.html'
       }
     }
   },
