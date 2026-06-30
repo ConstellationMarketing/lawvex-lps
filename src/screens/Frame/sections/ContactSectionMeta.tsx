@@ -87,6 +87,32 @@ export const ContactSectionMeta = (): JSX.Element => {
                 />
               </div>
 
+              <label className="flex items-start gap-3 text-xs leading-5 text-gray-600">
+                <input
+                  type="checkbox"
+                  name="smsConsent"
+                  value="agreed"
+                  className="mt-0.5 h-4 w-4 rounded border-lawvex-gray text-lawvex-accent focus:ring-lawvex-accent"
+                />
+                <span>
+                  Yes, I would like to receive automated text messages from Lawvex, LLP at the phone number provided above, including review requests, customer feedback requests, service updates, and other marketing communications.
+                  <br />
+                  Message Frequency: You will receive up to 3 messages per month
+                  <br />
+                  Standard Rates: Message and data rates may apply depending on your mobile phone service plan.
+                  <br />
+                  Help &amp; Stop: Reply HELP for help or STOP to cancel any time. By providing your phone number and checking the box above, you agree to receive text messages from Lawvex, LLP.
+                  <br />
+                  <a href="/terms-of-service/" className="underline">
+                    Terms of Service
+                  </a>{" "}
+                  /{" "}
+                  <a href="/privacy-policy/" className="underline">
+                    Privacy Policy
+                  </a>
+                </span>
+              </label>
+
               <div>
                 <select
                   name="serviceNeeded"
@@ -113,25 +139,6 @@ export const ContactSectionMeta = (): JSX.Element => {
                 ></textarea>
               </div>
 
-              <label className="flex items-start gap-3 text-xs leading-5 text-gray-600">
-                <input
-                  type="checkbox"
-                  name="smsConsent"
-                  value="agreed"
-                  className="mt-0.5 h-4 w-4 rounded border-lawvex-gray text-lawvex-accent focus:ring-lawvex-accent"
-                />
-                <span>
-                  I agree to receive SMS messages from Lawvex at the phone number provided above, including review requests, customer feedback requests, service updates, and other marketing communications. Message frequency varies. Message and data rates may apply. Reply STOP to opt out and HELP for assistance. By checking this box, I agree to the{" "}
-                  <a href="/privacy-policy/" className="underline">
-                    Privacy Policy
-                  </a>{" "}
-                  and{" "}
-                  <a href="/terms-of-service/" className="underline">
-                    Terms of Service
-                  </a>
-                  .
-                </span>
-              </label>
 
               <button
                 type="submit"
