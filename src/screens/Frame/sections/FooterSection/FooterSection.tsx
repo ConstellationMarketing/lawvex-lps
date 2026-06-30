@@ -11,21 +11,17 @@ export const FooterSection = (): JSX.Element => {
             </p>
             <span className="text-lawvex-light text-sm">•</span>
             <a
-              href="https://lawvex.com/privacy-policy/"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/privacy-policy/"
               className="font-body text-lawvex-light text-sm hover:text-lawvex-accent transition-colors"
             >
               Privacy Policy
             </a>
             <span className="text-lawvex-light text-sm">•</span>
             <a
-              href="https://lawvex.com/terms-of-service/"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/terms-of-service/"
               className="font-body text-lawvex-light text-sm hover:text-lawvex-accent transition-colors"
             >
-              Terms and Conditions
+              Terms of Service
             </a>
           </div>
         </div>

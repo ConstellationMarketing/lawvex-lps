@@ -122,11 +122,11 @@ export const ContactSectionMeta = (): JSX.Element => {
                 />
                 <span>
                   I agree to receive SMS messages from Lawvex at the phone number provided above, including review requests, customer feedback requests, service updates, and other marketing communications. Message frequency varies. Message and data rates may apply. Reply STOP to opt out and HELP for assistance. By checking this box, I agree to the{" "}
-                  <a href="https://lawvex.com/privacy-policy/" target="_blank" rel="noreferrer" className="underline">
+                  <a href="/privacy-policy/" className="underline">
                     Privacy Policy
                   </a>{" "}
                   and{" "}
-                  <a href="https://lawvex.com/terms-of-service/" target="_blank" rel="noreferrer" className="underline">
+                  <a href="/terms-of-service/" className="underline">
                     Terms of Service
                   </a>
                   .
