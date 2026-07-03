@@ -95,7 +95,7 @@ export const ContactSectionMeta = (): JSX.Element => {
                   className="mt-0.5 h-4 w-4 rounded border-lawvex-gray text-lawvex-accent focus:ring-lawvex-accent"
                 />
                 <span>
-                  Yes, I would like to receive automated text messages from Lawvex, LLP at the phone number provided above, including review requests, customer feedback requests, service updates, and other marketing communications.
+                  Yes, I would like to receive automated marketing text messages from Lawvex, LLP at the phone number provided above, including review requests and customer feedback requests. Message frequency varies. Message and data rates may apply. Reply STOP to opt out and HELP for assistance.
                   <br />
                   <strong>Message Frequency:</strong> You will receive up to 3 messages per month
                   <br />
