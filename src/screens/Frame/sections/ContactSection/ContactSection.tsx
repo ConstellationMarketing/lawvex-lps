@@ -122,11 +122,10 @@ export const ContactSection = (): JSX.Element => {
                 >
                   <option value="" disabled>Matter Type</option>
                   <option value="Estate Planning">Estate Planning</option>
-                  <option value="Medical">Medical</option>
-                  <option value="Probate">Probate</option>
+                  <option value="Probate/Small Estate Affidavit">Probate/Small Estate Affidavit</option>
                   <option value="Trust Administration">Trust Administration</option>
-                  <option value="Business Formations/Transactions">Business Formations/Transactions</option>
-                  <option value="Other">Other</option>
+                  <option value="Corporate (Business Formation/Annual Maintenance/Transaction)">Corporate (Business Formation/Annual Maintenance/Transaction)</option>
+                  <option value="Real Estate (Deed Transfer/Transaction)">Real Estate (Deed Transfer/Transaction)</option>
                 </select>
               </div>
 
