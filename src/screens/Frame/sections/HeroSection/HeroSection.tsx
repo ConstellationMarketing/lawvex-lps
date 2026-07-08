@@ -35,15 +35,15 @@ export const HeroSection = (): JSX.Element => {
       {/* Hero Content */}
       <div className="relative w-full max-w-7xl mx-auto px-4 py-16 md:py-24 text-center">
         <h1 className="font-heading text-lawvex-light text-xl md:text-2xl font-bold leading-tight mb-4">
-          Professional Estate Planning & Probate in Central California
+          Professional Estate Planning & Probate Services for all California Families
         </h1>
 
         <h2 className="font-heading text-lawvex-accent text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-          Protecting Your Family’s Legacy with 110+ Years of Combined Practice
+          Three California Offices or 100% Remote — Whatever Works Best for You
         </h2>
 
         <p className="font-body text-lawvex-light text-base max-w-3xl mx-auto leading-relaxed mb-8">
-          Lawvex has three California office locations — and offers a 100% remote legal experience for families who prefer to handle everything from home. However you want to work with us, we make it easy.
+          Protecting Your Family’s Legacy with 110+ Years of Combined Practice
         </p>
 
         <button

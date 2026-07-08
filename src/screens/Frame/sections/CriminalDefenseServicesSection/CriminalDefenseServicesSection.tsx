@@ -49,12 +49,13 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
           </a>
 
           <div className="flex flex-col items-center gap-4">
-            <a
-              href="tel:5594186587"
+            <button
+              type="button"
+              onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
               className="bg-white hover:bg-gray-100 text-lawvex-dark font-inter font-medium text-sm px-8 py-3 rounded-full transition-all duration-150 uppercase tracking-[2px] inline-block"
             >
               Request Free Quote
-            </a>
+            </button>
 
             <div className="font-body text-white text-base space-y-2">
               <p>

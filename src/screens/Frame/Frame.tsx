@@ -5,6 +5,7 @@ import { FooterSection } from "./sections/FooterSection";
 import { HeroSection } from "./sections/HeroSection";
 import { ClientTestimonialsSection } from "./sections/ClientTestimonialsSection";
 import { CriminalDefenseServicesSection } from "./sections/CriminalDefenseServicesSection";
+import { EstateProtectionSection } from "./sections/EstateProtectionSection/EstateProtectionSection";
 import { WhyChooseUsSection } from "./sections/WhyChooseUsSection";
 import { AboutUsSection } from "./sections/AboutUsSection";
 import { AttorneySection } from "./sections/AttorneySection";
@@ -22,6 +23,7 @@ export const Frame = (): JSX.Element => {
         <HeroSection />
         <StatsSection />
         <CriminalDefenseServicesSection />
+        <EstateProtectionSection />
         <WhyChooseUsSection />
         <RemoteEstatePlanningProcessSection />
         <AboutUsSection />

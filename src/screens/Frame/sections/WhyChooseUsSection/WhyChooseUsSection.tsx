@@ -33,7 +33,7 @@ export const WhyChooseUsSection = (): JSX.Element => {
       <div className="mx-auto max-w-[1200px] px-8">
         <div className="mb-14 text-center">
           <h2 className="mb-4 font-heading text-4xl font-bold leading-10 text-lawvex-dark">
-            Why Families Choose Lawvex for Estate Planning and Probate
+            Why Families Across California Choose Lawvex for Estate Planning and Probate
           </h2>
           <p className="mx-auto max-w-3xl font-body text-lg leading-8 text-[#555555]">
             Combined 110 years of experience protecting your family and your assets.
