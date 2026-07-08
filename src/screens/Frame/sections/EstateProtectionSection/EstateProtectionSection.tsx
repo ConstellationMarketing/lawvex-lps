@@ -8,7 +8,7 @@ export const EstateProtectionSection = (): JSX.Element => {
           Estate Planning Designed to Protect California Families When It Matters Most
         </h2>
 
-        <div className="space-y-6">
+        <div className="space-y-6 text-center">
           <p className="font-body text-lawvex-dark text-base leading-relaxed">
             After helping thousands of California families plan for the future, we know estate planning is about protecting the people you love with clear guidance, trusted support, and a plan that works when life becomes uncertain.
           </p>
