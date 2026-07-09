@@ -25,9 +25,9 @@ export const EstateProtectionSection = (): JSX.Element => {
             We know these 4 things about the families we help:
           </p>
 
-          <div className="space-y-4 max-w-3xl mx-auto text-center">
+          <div className="space-y-4 max-w-3xl mx-auto">
             {points.map((point) => (
-              <div key={point} className="flex items-start justify-center gap-3">
+              <div key={point} className="flex items-start gap-3 text-left">
                 <Check className="w-5 h-5 text-lawvex-accent mt-1 flex-shrink-0" />
                 <p className="font-body text-lawvex-dark text-base leading-relaxed">
                   {point}
