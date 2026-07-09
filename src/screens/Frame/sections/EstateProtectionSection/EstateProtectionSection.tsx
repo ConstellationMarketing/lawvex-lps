@@ -14,19 +14,23 @@ export const EstateProtectionSection = (): JSX.Element => {
           </p>
 
           <p className="font-body text-lawvex-dark text-base leading-relaxed">
-            You want a law firm your family can turn to first if something unexpected happens, including death, incapacity, illness, or an urgent legal decision. We help your loved ones understand what needs to happen and what steps to take next.
+            We know these 4 things about the families we help:
           </p>
 
           <p className="font-body text-lawvex-dark text-base leading-relaxed">
-            You also want an estate plan that is simple to understand and easy to follow. We explain everything in plain language, clarify each person’s role, and create practical solutions based on your family, assets, goals, and concerns.
+            ü You want a law firm your family can turn to first if something unexpected happens, including death, incapacity, illness, or an urgent legal decision. We help your loved ones understand what needs to happen and what steps to take next.
           </p>
 
           <p className="font-body text-lawvex-dark text-base leading-relaxed">
-            Most importantly, you want a plan that works when it is needed. We build thoughtful, customized estate plans designed to protect your family, reduce confusion, avoid unnecessary conflict, and give everyone involved greater confidence.
+            ü You also want an estate plan that is simple to understand and easy to follow. We explain everything in plain language, clarify each person’s role, and create practical solutions based on your family, assets, goals, and concerns.
           </p>
 
           <p className="font-body text-lawvex-dark text-base leading-relaxed">
-            Our goal is to make the process easy, organized, and stress-free while helping you maximize value and minimize unnecessary cost. If you are ready to protect your loved ones, we are here to help you take the next step.
+            ü You want the process to be easy, organized, and stress-free while helping you maximize value and minimize unnecessary cost. If you are ready to protect your loved ones, we are here to help you take the next step.
+          </p>
+
+          <p className="font-body text-lawvex-dark text-base leading-relaxed">
+            ü Most importantly, you want a plan that works when it is needed. We build thoughtful, customized estate plans designed to protect your family, reduce confusion, avoid unnecessary conflict, and give everyone involved greater confidence. When the time comes, your plan works and your family is protected.
           </p>
         </div>
       </div>
