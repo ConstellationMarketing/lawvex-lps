@@ -1,6 +1,14 @@
 import React from "react";
+import { Check } from "lucide-react";
 
 export const EstateProtectionSection = (): JSX.Element => {
+  const points = [
+    "You want a law firm your family can turn to first if something unexpected happens, including death, incapacity, illness, or an urgent legal decision. We help your loved ones understand what needs to happen and what steps to take next.",
+    "You also want an estate plan that is simple to understand and easy to follow. We explain everything in plain language, clarify each person’s role, and create practical solutions based on your family, assets, goals, and concerns.",
+    "You want the process to be easy, organized, and stress-free while helping you maximize value and minimize unnecessary cost. If you are ready to protect your loved ones, we are here to help you take the next step.",
+    "Most importantly, you want a plan that works when it is needed. We build thoughtful, customized estate plans designed to protect your family, reduce confusion, avoid unnecessary conflict, and give everyone involved greater confidence. When the time comes, your plan works and your family is protected.",
+  ];
+
   return (
     <section className="w-full bg-lawvex-light py-12 md:py-20">
       <div className="max-w-4xl mx-auto px-4">
@@ -17,21 +25,16 @@ export const EstateProtectionSection = (): JSX.Element => {
             We know these 4 things about the families we help:
           </p>
 
-          <p className="font-body text-lawvex-dark text-base leading-relaxed">
-            ü You want a law firm your family can turn to first if something unexpected happens, including death, incapacity, illness, or an urgent legal decision. We help your loved ones understand what needs to happen and what steps to take next.
-          </p>
-
-          <p className="font-body text-lawvex-dark text-base leading-relaxed">
-            ü You also want an estate plan that is simple to understand and easy to follow. We explain everything in plain language, clarify each person’s role, and create practical solutions based on your family, assets, goals, and concerns.
-          </p>
-
-          <p className="font-body text-lawvex-dark text-base leading-relaxed">
-            ü You want the process to be easy, organized, and stress-free while helping you maximize value and minimize unnecessary cost. If you are ready to protect your loved ones, we are here to help you take the next step.
-          </p>
-
-          <p className="font-body text-lawvex-dark text-base leading-relaxed">
-            ü Most importantly, you want a plan that works when it is needed. We build thoughtful, customized estate plans designed to protect your family, reduce confusion, avoid unnecessary conflict, and give everyone involved greater confidence. When the time comes, your plan works and your family is protected.
-          </p>
+          <div className="space-y-4 max-w-3xl mx-auto text-left">
+            {points.map((point) => (
+              <div key={point} className="flex items-start gap-3">
+                <Check className="w-5 h-5 text-lawvex-accent mt-1 flex-shrink-0" />
+                <p className="font-body text-lawvex-dark text-base leading-relaxed">
+                  {point}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
