@@ -1,7 +1,10 @@
 import React from "react";
+import { useState } from "react";
 import { Phone, MapPin } from "lucide-react";
 
 export const ContactSectionMeta = (): JSX.Element => {
+  const [smsConsent, setSmsConsent] = useState("not agreed");
+
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     const form = e.currentTarget;
 
@@ -57,6 +60,7 @@ export const ContactSectionMeta = (): JSX.Element => {
               <input type="hidden" name="form-name" value="estate-lp-form" />
               <input type="hidden" name="bot-field" />
               <input type="hidden" name="subject" value="New Lawvex Contact Form Submission" />
+              <input type="hidden" name="smsConsent" value={smsConsent} />
               <div>
                 <input
                   type="text"
@@ -90,8 +94,8 @@ export const ContactSectionMeta = (): JSX.Element => {
               <label className="flex items-start gap-3 text-xs leading-5 text-gray-600">
                 <input
                   type="checkbox"
-                  name="smsConsent"
-                  value="agreed"
+                  checked={smsConsent === "agreed"}
+                  onChange={(event) => setSmsConsent(event.target.checked ? "agreed" : "not agreed")}
                   className="mt-0.5 h-4 w-4 rounded border-lawvex-gray text-lawvex-accent focus:ring-lawvex-accent"
                 />
                 <span>
