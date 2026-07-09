@@ -27,9 +27,9 @@ export const EstateProtectionSection = (): JSX.Element => {
 
           <div className="space-y-4 max-w-3xl mx-auto">
             {points.map((point) => (
-              <div key={point} className="flex items-start gap-3 text-left">
-                <Check className="w-5 h-5 text-lawvex-accent mt-1 flex-shrink-0" />
-                <p className="font-body text-lawvex-dark text-base leading-relaxed">
+              <div key={point} className="grid grid-cols-[28px_1fr] gap-3">
+                <Check className="w-5 h-5 text-lawvex-accent mt-1" />
+                <p className="font-body text-lawvex-dark text-base leading-relaxed text-center">
                   {point}
                 </p>
               </div>
