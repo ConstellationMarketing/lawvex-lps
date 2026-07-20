@@ -1,5 +1,6 @@
 import { StrictMode, useState } from "react";
 import { createRoot } from "react-dom/client";
+import "../tailwind.css";
 import {
   CheckCircle2,
   Clock3,
@@ -234,6 +235,7 @@ const ProbateLawyerPage = (): JSX.Element => {
                   src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F4bce468b0c7e4ec08f5bb2af130dee6e?format=webp&width=800&height=1200"
                   alt="Avvo 10.0 Superb Attorney"
                   className="h-24 w-full object-contain"
+                  style={{ height: "96px", maxWidth: "100%", objectFit: "contain" }}
                 />
                 <p className="mt-3 text-sm font-bold">AVVO 10/10 Superb rating</p>
               </div>
@@ -242,6 +244,7 @@ const ProbateLawyerPage = (): JSX.Element => {
                   src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F9717dca307fe43b1b503d198c2421a34?format=webp&width=800&height=1200"
                   alt="Super Lawyers"
                   className="h-24 w-full object-contain"
+                  style={{ height: "96px", maxWidth: "100%", objectFit: "contain" }}
                 />
                 <p className="mt-3 text-sm font-bold">California's Best Law Firm — Super Lawyers recognition</p>
               </div>
@@ -250,6 +253,7 @@ const ProbateLawyerPage = (): JSX.Element => {
                   src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F393fd68230bf42f28b6b7f430b66321a?format=webp&width=800&height=1200"
                   alt="Law Firm 500 Award"
                   className="h-24 w-full object-contain"
+                  style={{ height: "96px", maxWidth: "100%", objectFit: "contain" }}
                 />
                 <p className="mt-3 text-sm font-bold">Law Firm 500 Award Winner (2022)</p>
               </div>
