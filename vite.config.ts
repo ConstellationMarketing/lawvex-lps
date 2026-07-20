@@ -12,6 +12,7 @@ export default defineConfig({
         main: './index.html',
         'thank-you': './thank-you.html',
         'meta-estate-planning-lp': './meta-estate-planning-lp.html',
+        'probate-lawyer-lp': './probate-lawyer-lp/index.html',
         'privacy-policy': './privacy-policy/index.html',
         'terms-of-service': './terms-of-service/index.html'
       }
