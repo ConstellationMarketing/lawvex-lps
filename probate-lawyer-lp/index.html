@@ -32,7 +32,7 @@
       }
     </script>
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
     </style>
     <link href="../tailwind.css" rel="stylesheet" />
     <link href="../tailwind.css" rel="stylesheet" />
@@ -161,22 +161,20 @@
   </head>
   <body>
     <!-- Hidden form for Netlify form detection during build -->
-    <form name="estate-lp-form" method="POST" netlify hidden>
+    <form name="probate-lawyer-lp-form" method="POST" netlify hidden>
       <input type="text" name="name" required />
-      <input type="email" name="email" required />
       <input type="tel" name="phone" required />
-      <select name="serviceNeeded" required>
-        <option value="Estate Planning">Estate Planning</option>
-        <option value="Probate/Small Estate Affidavit">Probate/Small Estate Affidavit</option>
-        <option value="Trust Administration">Trust Administration</option>
-        <option value="Corporate (Business Formation/Annual Maintenance/Transaction)">Corporate (Business Formation/Annual Maintenance/Transaction)</option>
-        <option value="Real Estate (Deed Transfer/Transaction)">Real Estate (Deed Transfer/Transaction)</option>
+      <input type="email" name="email" required />
+      <select name="probateProcess" required>
+        <option value="Just Starting">Just Starting</option>
+        <option value="Already Filed">Already Filed</option>
+        <option value="Not Sure">Not Sure</option>
+        <option value="Other">Other</option>
       </select>
-      <textarea name="message" required></textarea>
       <input type="hidden" name="smsConsent" value="not agreed" />
     </form>
 
     <div id="app"></div>
-    <script type="module" src="../src/index.tsx"></script>
+    <script type="module" src="../src/probate-lawyer-lp.tsx"></script>
   </body>
 </html>
