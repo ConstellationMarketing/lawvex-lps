@@ -1,6 +1,8 @@
 import { StrictMode, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { Clock, DollarSign, Gavel, Languages, Phone, ShieldCheck } from "lucide-react";
+import { AttorneySectionMeta } from "./screens/Frame/sections/AttorneySectionMeta";
+import { ClientTestimonialsSection } from "./screens/Frame/sections/ClientTestimonialsSection";
 import "../tailwind.css";
 
 const phoneDisplay = "(559) 418-6587";
@@ -279,6 +281,9 @@ const ProbateLawyerPage = (): JSX.Element => {
             </div>
           </div>
         </section>
+
+        <AttorneySectionMeta />
+        <ClientTestimonialsSection />
 
         <section className="w-full bg-lawvex-accent py-12 md:py-16">
           <div className="max-w-6xl mx-auto px-4 text-center">
